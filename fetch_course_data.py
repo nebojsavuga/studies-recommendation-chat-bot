@@ -22,8 +22,21 @@ def get_course_name(soup):
     return names[1].get_text(strip=True) if len(names) > 1 else 'Unknown'
 
 
+def get_modules(soup):
+    modules = soup.findAll('p', id='grupe-stud')
+    module_dict = {}
 
-def get_all_subjects(soup):
+    for module in modules:
+        a_tag = module.find('a')
+        if a_tag:
+            link = a_tag['href']
+            name = a_tag.get_text()
+            module_dict[link] = name
+
+    return module_dict
+
+
+def get_subjects(soup):
     courses = soup.findAll("a", id="viewPredmetA_00_17_A320")
     subjects = []
     for course in courses:
@@ -34,6 +47,38 @@ def get_all_subjects(soup):
         subject_data['cilj'], subject_data['ishod'], subject_data['sadrzaj'] = retrieve_information_about_subject(course.get('href'))
         subjects.append(subject_data)
     return subjects
+
+def get_subjects_including_modules(modules_dict, soup):
+    subjects = []
+    courses = soup.findAll("a", id="viewPredmetA_00_17_A320")
+    for course in courses:
+        link = course['href']
+        if link not in modules_dict:
+            subject_data = {}
+            subject_data['ime'] = course.text.strip()
+            subject_data['cilj'], subject_data['ishod'], subject_data['sadrzaj'] = retrieve_information_about_subject(link)
+            subjects.append(subject_data)
+        else:
+            response = requests.get(link)
+            if response.status_code == 200:
+                soup_module = BeautifulSoup(response.text, 'html.parser')
+                courses_in_module = soup_module.findAll("a", id="viewPredmetA_00_17_A320")
+                for course_in_module in courses_in_module:
+                    subject_data = {}
+                    if not any(subject['ime'] == course_in_module.text.strip() for subject in subjects):
+                        subject_data['ime'] = course_in_module.text.strip()
+                        link = course_in_module['href']
+                        subject_data['cilj'], subject_data['ishod'], subject_data[
+                            'sadrzaj'] = retrieve_information_about_subject(link)
+                        subjects.append(subject_data)
+            else:
+                print(f"Error loading page: {link}")
+
+    return subjects
+
+
+
+
 
 
 def retrieve_information_about_subject(subject_link):
@@ -58,17 +103,6 @@ def retrieve_information_about_subject(subject_link):
 
     return goal_content, outcome_content, content
 
-
-
-"""def get_first_year_winter_semester(soup):
-    start_element = soup.find('div', id='godina1Z')
-    end_element = soup.find('div', id='godina1L')
-    for sibling in start_element.find_next_siblings():
-        if sibling == end_element:
-            break
-        print(sibling)
-        if sibling.name == 'a':
-            print(sibling.name)"""
 
 
 
@@ -105,7 +139,7 @@ if __name__ == '__main__':
             basic_course_info = get_basic_course_info(soup)
 
             # Getting all subjects and related information
-            subjects = get_all_subjects(soup)
+            subjects = get_subjects(soup)
 
             # Construct the final JSON structure
             course_data = {
@@ -119,9 +153,34 @@ if __name__ == '__main__':
         else:
             print(f"Error loading page: {link}")
 
-    #TO DO: To load and process courses that provide the option to select modules
+
     links_modules = load_course_links('data/course_links_with_modules.txt')
-    # Save the data into a JSON file after processing all links
+
+    for link in links_modules:
+        response = requests.get(link)
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, 'html.parser')
+
+            # Getting course name
+            course_name = get_course_name(soup)
+
+            # Getting basic course info
+            basic_course_info = get_basic_course_info(soup)
+
+            modules_dict = get_modules(soup)
+            subjects = get_subjects_including_modules(modules_dict, soup)
+
+            course_data = {
+                course_name: {
+                    **basic_course_info,
+                    "Predmeti": subjects
+                }
+            }
+            all_courses_data.update(course_data)
+        else:
+            print(f"Error loading page: {link}")
+
     with open('data/course_data.json', 'w', encoding='utf-8') as f:
         json.dump(all_courses_data, f, ensure_ascii=False, indent=4)
 
