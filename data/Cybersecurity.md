@@ -130,7 +130,8 @@ within which an organization operates. A government organization has a set of se
 profiles while a corporate entity has other focuses.
 Essentials - Risk management, - Governance and policy, - Laws, ethics, and compliance, and - Strategy and planning.
 Students are required to demonstrate proficiency in each of the essential concepts through
-achievement of the learning outcomes. Learning outcomes:
+achievement of the learning outcomes.
+Learning outcomes:
 Describe risk management and its role in the organization.
 Describe risk management techniques to identify and prioritize
 risk factors for information assets and how risk is assessed.
