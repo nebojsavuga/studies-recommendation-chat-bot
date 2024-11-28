@@ -146,14 +146,16 @@ Project Management,
 Behavioral Attributes
 }
 Data science (DS) : Areas{
-(a) computing fundamentals,
-(b) data acquirement and governance,
-(c) data management, storage, and retrieval,
-(d) data privacy, security, and integrity,
-(e) machine learning,
-(f) data mining,
-(g) big data,
-(h) analysis and presentation
-(i) professionalism
+Analysis and Presentation (AP),
+Artificial Intelligence (AI),
+Big Data Systems (BDS),
+Computing and Computer Fundamentals (CCF),
+Data Acquisition, Management, and Governance (DG),
+Data Mining (DM),
+Data Privacy, Security, Integrity, and Analysis for Security (DP),
+Machine Learning (ML),
+Professionalism (PR),
+Programming, Data Structures, and Algorithms (PDA),
+Software Development and Maintenance (SDM)
 }
 }
