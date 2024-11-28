@@ -2,9 +2,9 @@
 
 ## Članovi
 
-Bogdan Janošević R2 43/2024
-Kristina Popov Е2 93/2024
-Nebojša Vuga R2 23/2024
+- Bogdan Janošević R2 43/2024
+- Kristina Popov Е2 93/2024
+- Nebojša Vuga R2 23/2024
 
 ## Ontologija za predmete
 
@@ -52,6 +52,7 @@ AL - Algorithms and Complexity
 ## Ontologija za disciplinu
 
 Values:{
+
 Computer engineering (CE) : Areas{
 Circuits and Electronics
 Computing Algorithms
@@ -66,6 +67,8 @@ Systems and Project Engineering
 System Resource Management
 Software Design
 }
+
+
 Computer science (CS) : Areas{
 AL-Algorithms and Complexity
 AR-Architecture and Organization,
@@ -87,6 +90,7 @@ SF-Systems Fundamentals,
 SP-Social Issues and Professional Practice
 }
 
+
 Cybersecurity (CSEC) : Areas {
 Data Security,
 Software Security,
@@ -97,6 +101,8 @@ Human Security,
 Organizational Security,
 Societal Security,
 }
+
+
 Information systems (IS) : Areas{
 Programming Fundamentals
 Algorithms and Complexity
@@ -119,6 +125,8 @@ General models of the domain
 Key specializations within the domain
 Evaluation of performance within the domain
 }
+
+
 Information technology (IT) : Areas {
 ITE-CSP Cybersecurity Principles,
 ITE-GPP Global Professional Practice ,
@@ -130,6 +138,8 @@ ITE-SWF Software Fundamentals ,
 ITE-UXD User Experience Design,
 ITE-WMS Web and Mobile Systems
 }
+
+
 Software engineering (SE) : Areas{
 Software Requirements,
 Software Design,
@@ -145,6 +155,8 @@ Software Measurement,
 Project Management,
 Behavioral Attributes
 }
+
+
 Data science (DS) : Areas{
 Analysis and Presentation (AP),
 Artificial Intelligence (AI),
