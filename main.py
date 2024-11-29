@@ -8,6 +8,9 @@ import os
 API_URL = "https://api.openai.com/v1/embeddings"
 API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = API_KEY
+def save_embeddings(embeddings, filename):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(embeddings, f)
 
 def get_embedding(text, model="text-embedding-ada-002"):
     headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
@@ -48,17 +51,32 @@ for program_name, program_details in course_data.items():
             {
                 "name": subject["ime"],
                 "description": f"{subject['cilj']} {subject['ishod']} {subject['sadrzaj']}",
+                "course": program_name,
+                "goal": subject["cilj"],
+                "content": subject["sadrzaj"],
+                "learning_outcome": subject["ishod"],
+                "type_of_studies": program_details.get("Stepen i vrsta studija", ""),
+                "title": program_details.get("Zvanje koje se stiče", ""),
+                "duration": program_details.get("Trajanje (god/sem)", ""),
             }
         )
     for key, value in program_details.items():
         if key.startswith("Izbor") and isinstance(value, list):
-            print(key)
             for subject in value:
-                if isinstance(subject, dict) and "ime" in subject:  # Proveravamo format predmeta
+                if isinstance(subject, dict) and "ime" in subject:
                     courses.append(
                         {
                             "name": subject["ime"],
-                            "description": f"{subject.get('cilj', '')} {subject.get('ishod', '')} {subject.get('sadrzaj', '')}",
+                            "description": f"{subject['cilj']} {subject['ishod']} {subject['sadrzaj']}",
+                            "course": program_name,
+                            "goal": subject["cilj"],
+                            "content": subject["sadrzaj"],
+                            "learning_outcome": subject["ishod"],
+                            "type_of_studies": program_details.get(
+                                "Stepen i vrsta studija", ""
+                            ),
+                            "title": program_details.get("Zvanje koje se stiče", ""),
+                            "duration": program_details.get("Trajanje (god/sem)", ""),
                         }
                     )
 print(f"Extracted {len(courses)} courses.")
@@ -71,10 +89,12 @@ print(f"Extracted {len(knowledge_areas)} knowledge areas.")
 print("Generating embeddings for courses...")
 
 course_embeddings = generate_embeddings([course["description"] for course in courses])
+save_embeddings(course_embeddings, 'course_embeddings.json')
 print("Course embeddings generated successfully.")
 print("Generating embeddings for knowledge areas...")
 
 ka_embeddings = generate_embeddings([ka["description"] for ka in knowledge_areas])
+save_embeddings(ka_embeddings, 'ka_embeddings.json')
 print("Knowledge area embeddings generated successfully.")
 
 print("Creating FAISS index...")
@@ -89,22 +109,38 @@ faiss_index.add(np.array(ka_embeddings, dtype=np.float32))
 print("FAISS index created and populated with knowledge area embeddings.")
 
 print("Mapping courses to knowledge areas...")
-mapped_courses = []
+program_courses = {}
 for i, course in enumerate(courses):
     query_embedding = np.array(course_embeddings[i], dtype=np.float32).reshape(1, -1)
     distances, indices = faiss_index.search(query_embedding, k=3)  # Top 3 KA
-    top_matches = [
-        ka_metadata[idx]["name"]
-        for _, idx in enumerate(indices[0])
-    ]
-    mapped_courses.append(
-        {"course_name": course["name"], "knowledge areas": top_matches}
+    top_matches = [ka_metadata[idx]["name"] for _, idx in enumerate(indices[0])]
+
+    program_name = course["course"]
+    title = course["title"]
+    duration = course["duration"]
+    type_of_studies = course["type_of_studies"]
+
+    if program_name not in program_courses:
+        program_courses[program_name] = {
+            "title": title,
+            "duration": duration,
+            "type_of_studies": type_of_studies,
+            "courses": [],
+        }
+    program_courses[program_name]["courses"].append(
+        {
+            "course_name": course["name"],
+            "knowledge_areas": top_matches,
+            "goal": course["goal"],
+            "content": course["content"],
+            "learning_outcome": course["learning_outcome"],
+        }
     )
 print("Course mapping completed.")
 
-output_path = "v1.json"
+output_path = "v2.json"
 print(f"Saving results to {output_path}...")
 with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(mapped_courses, f, ensure_ascii=False, indent=4)
+    json.dump(program_courses, f, ensure_ascii=False, indent=4)
 
 print(f"Rezultati su sačuvani u {output_path}")
