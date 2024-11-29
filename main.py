@@ -19,6 +19,9 @@ def get_embedding(text, model="text-embedding-ada-002"):
     response_data = response.json()
     return response_data["data"][0]["embedding"]
 
+def load_embeddings(filename):
+    with open(filename, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def generate_embeddings(texts):
     embeddings = []
