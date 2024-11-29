@@ -8,9 +8,12 @@ import os
 API_URL = "https://api.openai.com/v1/embeddings"
 API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = API_KEY
+
+
 def save_embeddings(embeddings, filename):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(embeddings, f)
+
 
 def get_embedding(text, model="text-embedding-ada-002"):
     headers = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
@@ -19,9 +22,11 @@ def get_embedding(text, model="text-embedding-ada-002"):
     response_data = response.json()
     return response_data["data"][0]["embedding"]
 
+
 def load_embeddings(filename):
     with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
+
 
 def generate_embeddings(texts):
     embeddings = []
@@ -86,20 +91,22 @@ print(f"Extracted {len(courses)} courses.")
 
 for domain, domain_details in acm_data.items():
     for ka in domain_details["knowledge_areas"]:
-        knowledge_areas.append({"name": ka["name"], "description": ka["description"]})
+        knowledge_areas.append(
+            {"name": ka["name"], "description": ka["description"], "discipline": domain}
+        )
 print(f"Extracted {len(knowledge_areas)} knowledge areas.")
 
 print("Generating embeddings for courses...")
 
-#course_embeddings = generate_embeddings([course["description"] for course in courses])
-course_embeddings = load_embeddings('course_embeddings.json')
-#save_embeddings(course_embeddings, 'course_embeddings.json')
+# course_embeddings = generate_embeddings([course["description"] for course in courses])
+course_embeddings = load_embeddings("course_embeddings.json")
+# save_embeddings(course_embeddings, 'course_embeddings.json')
 print("Course embeddings generated successfully.")
 print("Generating embeddings for knowledge areas...")
 
-#ka_embeddings = generate_embeddings([ka["description"] for ka in knowledge_areas])
-#save_embeddings(ka_embeddings, 'ka_embeddings.json')
-ka_embeddings = load_embeddings('ka_embeddings.json')
+# ka_embeddings = generate_embeddings([ka["description"] for ka in knowledge_areas])
+# save_embeddings(ka_embeddings, 'ka_embeddings.json')
+ka_embeddings = load_embeddings("ka_embeddings.json")
 
 print("Knowledge area embeddings generated successfully.")
 
@@ -109,7 +116,12 @@ dimension = len(course_embeddings[0])
 faiss_index = faiss.IndexFlatL2(dimension)
 
 ka_metadata = [
-    {"name": ka["name"], "description": ka["description"]} for ka in knowledge_areas
+    {
+        "name": ka["name"],
+        "description": ka["description"],
+        "discipline": ka["discipline"],
+    }
+    for ka in knowledge_areas
 ]
 faiss_index.add(np.array(ka_embeddings, dtype=np.float32))
 print("FAISS index created and populated with knowledge area embeddings.")
@@ -119,7 +131,10 @@ program_courses = {}
 for i, course in enumerate(courses):
     query_embedding = np.array(course_embeddings[i], dtype=np.float32).reshape(1, -1)
     distances, indices = faiss_index.search(query_embedding, k=3)  # Top 3 KA
-    top_matches = [ka_metadata[idx]["name"] for _, idx in enumerate(indices[0])]
+    top_matches = [
+        {"name": ka_metadata[idx]["name"], "discipline": ka_metadata[idx]["discipline"]}
+        for _, idx in enumerate(indices[0])
+    ]
 
     program_name = course["course"]
     title = course["title"]
@@ -144,7 +159,7 @@ for i, course in enumerate(courses):
     )
 print("Course mapping completed.")
 
-output_path = "v2.json"
+output_path = "v3.json"
 print(f"Saving results to {output_path}...")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(program_courses, f, ensure_ascii=False, indent=4)

@@ -2966,24 +2966,6 @@ ns1:Završni_rad__-_izrada_i_odbrana ns1:has_content "Формира се пој
     ns1:has_learning_outcome "Израдом и одбраном завршног рада студенти који су завршили студије треба да буду способни да решавају реалне проблеме из праксе као и да наставе школовање уколико се за то определе. Компетенције укључују, пре свега, развој способности критичног мишљења, способности анализе проблема, синтезе решења, предвиђање понашања одабраног решења са јасном представом шта су добре а шта лоше стране одабраног решења. Свршени студенти имају и способност решавања конкретних проблема уз употребу научних метода и поступака. Посебно је важна способност повезивања основних знања из различитих области и њихова примена. Свршени студенти су оспособљени за интензивно коришћење информационо-комуникационих технологија. Свршени студенти овог нивоа студија поседују компетенцију за примену знања у пракси и праћење и примену новина у струци, као и за сарадњу са локалним социјалним и међународним окружењем." ;
     ns1:has_name "Završni rad  - izrada i odbrana" .
 
-<http://example.org/ka/Data_and_Business_Analytics> ns1:has_knowledge_area_name "Data and Business Analytics" .
-
-<http://example.org/ka/IS_Ethics,_Sustainability,_Use_and_Implications_for_Society> ns1:has_knowledge_area_name "IS Ethics, Sustainability, Use and Implications for Society" .
-
-<http://example.org/ka/IS_Management_and_Strategy> ns1:has_knowledge_area_name "IS Management and Strategy" .
-
-<http://example.org/ka/ITE-CSP_Cybersecurity_Principles> ns1:has_knowledge_area_name "ITE-CSP Cybersecurity Principles" .
-
-<http://example.org/ka/ITE-PFT_Platform_Technologies> ns1:has_knowledge_area_name "ITE-PFT Platform Technologies" .
-
-<http://example.org/ka/ITE-UXD_User_Experience_Design> ns1:has_knowledge_area_name "ITE-UXD User Experience Design" .
-
-<http://example.org/ka/Organizational_Security> ns1:has_knowledge_area_name "Organizational Security" .
-
-<http://example.org/ka/Professionalism_(PR)> ns1:has_knowledge_area_name "Professionalism (PR)" .
-
-<http://example.org/ka/Secure_Computing> ns1:has_knowledge_area_name "Secure Computing" .
-
 ns1:Štamparske_forme ns1:has_content "Дигитална монтажа табака (основе дигиталне монтаже, врсте и начини монтаже табака, рад у софтверима за дигиталну монтажу табака). Штампарске форме за офсет штампу (материјали за израду штампарских форми, површинске карактеристике компирних и слојева Al2O3, основне физичко-хемијске особине штампарских форми, начини осветљавања конвенционалних штампарксих форми, извори светла за осветљавање штампарксих форми, врсте копирних слојева, контрола квалитета израде штампарских форми). CtP штампарске форме за офсет штампу (основни материјали за израду CtP штампарских форми, врсте CtP штампарских форми, копирни слојеви, конструкције уређаја за осветљавање CtP штампарских форми, извори светлости за осветљавање CtP штампарских форми, CtP штампарске форме новије генерације без конвенционалног развијања, контрола квалитета израде штампарских форми). Средство за влажење и процес влажења штампарске форме за офсет штампу (површинске појаве, контактни угао између штампарске форме, средства за влажење и боје, улога средства за влажење у офсет штампи, састав средства за влажење, компоненте система за влажење, конструкција система за влажење). Штампарске форме за високу штампу (основни материјали за добијање штампарске форме за високу штампу, састав штампарске форме за високу штампу, фотополимерне штампарске форме, конвенционални процес израде фотополимерних штампарских форми за високу штампу, CtP процес израде фотополимерних штампарских форми за високу штампу, савремене технологије израде штампарске форме за високу штампу, контрола квалитета израде штампарских форми). Штампарске форме за пропусну штампу (материјали за израду штампарске форме, материјали за израду рама за штампарску форму, конвенционалан начин израде штампарских форми за пропусну штампу, израда штампарских форми уз помоћ CtP технологије, контрола квалитета израде штампарских форми). Штампарске форме за дубоку штампу (основни материјали за добијање штампарске форме за директну дубоку штампу." ;
     ns1:has_goal "Оспособити студенте за стицање основних и практичних знања из области припеме и израде штампарских форми за различите технике штампе. Презентовати могућности везане за електронску припрему табака за штампу – електронску монтаже табака. Направити јасну разлику између припреме конвенционалних штампарских форми и штампарских форми добијених CtP технологијом и упознати студенте са свим предностима и манама поменутих поступака. Подићи ниво свести о важности прецизне израде штампарске форме, контроле квалитета њене израде као и континуалног праћења развоја технологије." ;
     ns1:has_knowledge_area <http://example.org/ka/AR-Architecture_and_Organization>,
@@ -3567,17 +3549,32 @@ ns1:Web_dizajn ns1:has_content "Основне технологије за wеб
         "Студенти су оспособљени за самостални рад у домену формирања сложених wеб садржаја." ;
     ns1:has_name "Web dizajn" .
 
-<http://example.org/ka/CE-SEC_Information_Security> ns1:has_knowledge_area_name "CE-SEC Information Security" .
+<http://example.org/ka/Data_and_Business_Analytics> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Data and Business Analytics" .
 
-<http://example.org/ka/CE-SRM_System_Resource_Management> ns1:has_knowledge_area_name "CE-SRM System Resource Management" .
+<http://example.org/ka/IS_Ethics,_Sustainability,_Use_and_Implications_for_Society> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "IS Ethics, Sustainability, Use and Implications for Society" .
 
-<http://example.org/ka/Human_Security> ns1:has_knowledge_area_name "Human Security" .
+<http://example.org/ka/IS_Management_and_Strategy> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "IS Management and Strategy" .
 
-<http://example.org/ka/PD-Parallel_and_Distributed_Computing> ns1:has_knowledge_area_name "PD-Parallel and Distributed Computing" .
+<http://example.org/ka/ITE-CSP_Cybersecurity_Principles> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-CSP Cybersecurity Principles" .
 
-<http://example.org/ka/Software_Process_and_Life_Cycle> ns1:has_knowledge_area_name "Software Process and Life Cycle" .
+<http://example.org/ka/ITE-PFT_Platform_Technologies> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-PFT Platform Technologies" .
 
-<http://example.org/ka/System_Security> ns1:has_knowledge_area_name "System Security" .
+<http://example.org/ka/ITE-UXD_User_Experience_Design> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-UXD User Experience Design" .
+
+<http://example.org/ka/Organizational_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Organizational Security" .
+
+<http://example.org/ka/Professionalism_(PR)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Professionalism (PR)" .
+
+<http://example.org/ka/Secure_Computing> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Secure Computing" .
 
 ns1:Algoritmi_i_strukture_podataka ns1:has_content "Апстрактни типови података: појам апстрактног типа података; дефинисање нових типова. Низови: појам низа; операције над низовима; анализа ефикасности операција над низовима; појам матрице; операције над матрицама. Скупови и мапе: појам скупа; имплементација скупа; појам мапе; имплементација мапе; вишедимензионални низови и операције над њима. Анализа алгоритама: О-нотација; анализа функционисања Python листе. Претраживање и сортирање: линеарна и бинарна претрага; алгоритми за сортирање; операције над сортираним низовима. Листа, стек и ред: једноструко спрегнуте листе: појам и операције; примене листи; двоструко спрегнуте листе; стек - појам и операције; ред - појам и операције; имплементација стека и реда; вишеструко спрегнуте листе. Рекурзија. појам и особине рекурзије; имплементација рекурзије; примене рекурзије. Хеш табеле: појам хеш функције; хеш табеле - појам и операције; примене хеширања. Стабла: бинарна стабла - појам и операције; Н-арна стабла; стабла за претраживање.",
         "Апстрактни типови података: појам апстрактног типа података; дефинисање нових типова. Низови: појам низа; операције над низовима; анализа ефикасности операција над низовима; појам матрице; операције над матрицама. Скупови и мапе: појам скупа; имплементација скупа; појам мапе; имплементација мапе; вишедимензионални низови и операције над њима. Анализа алгоритама: О-нотација; анализа функционисања Пyтхон листе. Претраживање и сортирање: линеарна и бинарна претрага; алгоритми за сортирање; операције над сортираним низовима. Листа, стек и ред: једноструко спрегнуте листе: појам и операције; примене листи; двоструко спрегнуте листе; стек - појам и операције; ред - појам и операције; имплементација стека и реда; вишеструко спрегнуте листе. Рекурзија. појам и особине рекурзије; имплементација рекурзије; примене рекурзије. Хеш табеле: појам хеш функције; хеш табеле - појам и операције; примене хеширања. Стабла: бинарна стабла - појам и операције; Н-арна стабла; стабла за претраживање.",
@@ -3770,19 +3767,23 @@ ns1:Sistemi_automatskog_upravljanja ns1:has_content "Основни појмов
         "Стечена основна знања из области управљања системима. Способност примене стечених знања на анализу биолошких система.Стечена знања могу се користити у решавању конкретних инжењерских проблема, а пре свега представљају основу за даље праћење стручних предмета." ;
     ns1:has_name "Sistemi automatskog upravljanja" .
 
-<http://example.org/ka/Data_Privacy,_Security,_Integrity,_and_Analysis_for_Security_(DP)> ns1:has_knowledge_area_name "Data Privacy, Security, Integrity, and Analysis for Security (DP)" .
+<http://example.org/ka/CE-SEC_Information_Security> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-SEC Information Security" .
 
-<http://example.org/ka/Emerging_Technologies> ns1:has_knowledge_area_name "Emerging Technologies" .
+<http://example.org/ka/CE-SRM_System_Resource_Management> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-SRM System Resource Management" .
 
-<http://example.org/ka/SDF-Software_Development_Fundamentals> ns1:has_knowledge_area_name "SDF-Software Development Fundamentals" .
+<http://example.org/ka/Human_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Human Security" .
 
-<http://example.org/ka/SE-Software_Engineering> ns1:has_knowledge_area_name "SE-Software Engineering" .
+<http://example.org/ka/PD-Parallel_and_Distributed_Computing> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "PD-Parallel and Distributed Computing" .
 
-<http://example.org/ka/Societal_Security> ns1:has_knowledge_area_name "Societal Security" .
+<http://example.org/ka/Software_Process_and_Life_Cycle> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Process and Life Cycle" .
 
-<http://example.org/ka/Software_Security> ns1:has_knowledge_area_name "Software Security" .
-
-<http://example.org/ka/User_Interface_Design> ns1:has_knowledge_area_name "User Interface Design" .
+<http://example.org/ka/System_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "System Security" .
 
 ns1:Arhitektura_računara ns1:has_content "Појам архитектуре рачунара, Модел рачунара, Машинска репрезентација података, Архитектура наредби, асемблерски језици и асемблерско програмирање (потпрограм, макро, стек), Принципи организације рачунара (меморија, процесор, кодирање и формати машинских наредби, организација процесора, улазно-излазни уређаји, сабирница, прекиди), Системски програми (едитор, асемблер, макро претпроцесор, линкер, лоудер, дибагер, оперативни систем), Еволуција архитектуре рачунара (CISC, RISC, проточни и векторски процесори; меморијска хијерархија: радна, масовна, асоцијативна, скривена и виртуелна меморија; улазно-излазни уређаји; сабирница; спојне мреже; мултипроцесори и мултирачунари; паралелизам на нивоу наредбе и на нивоу низова наредби).",
         "Увод у архитектуру рачунара (основни појмови, кратка историја и еволуција, рачунарске врсте); Организација рачунарских система (процесори, примарна и секундарна меморија, У/И); Дигитална логика (Булова алгребра, основна логичка кола, меморија, чипови и магистрале са примерима); Микроархитектура (начини имплементације са примерима); Архитектура скупа машинских инструкција (типови података, формати инструкција, адресирање, типови инструкција, контрола тока, примери); Оперативни систем рачунара (виртуелна меморија и У/И инструкције, примери оперативних система); Асемблерски језик (основни појмови, макрои, процес асемблирања, линковање и учитавање); Архитектуре паралелних рачунара (паралелизам на чипу, копроцесори, мултипроцесори, мултикомпјутери са разменом порука)" ;
@@ -3839,17 +3840,26 @@ ns1:Sociologija_tehnike ns1:has_content "Техничко сазнање: осо
         "Стицање социолошких сазнања о особинама, изворима, друштвеним функцијама технике и ствараоцима техничког сазнања; стицање знања о утицају природе друштвених система на развој технике и утицају технике на развој друштва; стицање знања о утицају технике на процесе и промене у модерном друштву: глобализација, промене садржаја рада и облика организације рада; промене у комуникацији, култури, образовању, демократији, начину живота и мишљења људи, стицање знања о негативним аспектима техничког развоја: уништавање природе, отуђење у раду, стварање ризичног друштва." ;
     ns1:has_name "Sociologija tehnike" .
 
-<http://example.org/ka/Component_Security> ns1:has_knowledge_area_name "Component Security" .
+<http://example.org/ka/Data_Privacy,_Security,_Integrity,_and_Analysis_for_Security_(DP)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Data Privacy, Security, Integrity, and Analysis for Security (DP)" .
 
-<http://example.org/ka/IAS-Information_Assurance_and_Security> ns1:has_knowledge_area_name "IAS-Information Assurance and Security" .
+<http://example.org/ka/Emerging_Technologies> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Emerging Technologies" .
 
-<http://example.org/ka/ITE-GPP_Global_Professional_Practice> ns1:has_knowledge_area_name "ITE-GPP Global Professional Practice" .
+<http://example.org/ka/SDF-Software_Development_Fundamentals> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "SDF-Software Development Fundamentals" .
 
-<http://example.org/ka/NC-Networking_and_Communication> ns1:has_knowledge_area_name "NC-Networking and Communication" .
+<http://example.org/ka/SE-Software_Engineering> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "SE-Software Engineering" .
 
-<http://example.org/ka/Software_Design> ns1:has_knowledge_area_name "Software Design" .
+<http://example.org/ka/Societal_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Societal Security" .
 
-<http://example.org/ka/Software_Testing> ns1:has_knowledge_area_name "Software Testing" .
+<http://example.org/ka/Software_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Software Security" .
+
+<http://example.org/ka/User_Interface_Design> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "User Interface Design" .
 
 ns1:Završni_rad_-_istraživački_rad ns1:has_content "Формира се појединачно у складу са потребама и облашћу која је обухваћена задатом темом дипломског рада. Студент у договору са ментором сачињава дипломски рад у писменој форми у складу са предвиђеним стандардима Факултета техничких наука.Студент припрема и брани писмени дипломски рад јавно у договору са ментором и у складу са предвиђеним стандардима. Студент проучава стручну литературу, стручне и бечелор радове студената који се баве сличном тематиком, врши анализе у циљу изналажења решења конкретног задатка који је дефинисан задатком дипломског рада.",
         "Формира се појединачно у складу са потребама и облашћу која је обухваћена задатом темом завршног рада. Студент проучава стручну литературу, стручне и дипломске радове студената који се баве сличном тематиком, врши анализе у циљу изналажења решења конкретног задатка који је дефинисан задатком завршног рада." ;
@@ -3873,19 +3883,23 @@ ns1:Završni_rad_-_izrada_i_odbrana ns1:has_content "Формира се пој�
     ns1:has_learning_outcome "Израдом и одбраном завршног рада студенти који су завршили студије треба да буду способни да решавају реалне проблеме из праксе као и да наставе школовање уколико се за то определе. Компетенције укључују, пре свега, развој способности критичног мишљења, способности анализе проблема, синтезе решења, предвиђање понашања одабраног решења са јасном представом шта су добре а шта лоше стране одабраног решења. Свршени студенти имају и способност решавања конкретних проблема уз употребу научних метода и поступака. Посебно је важна способност повезивања основних знања из различитих области и њихова примена. Свршени студенти су оспособљени за интензивно коришћење информационо-комуникационих технологија. Свршени студенти овог нивоа студија поседују компетенцију за примену знања у пракси и праћење и примену новина у струци, као и за сарадњу са локалним социјалним и међународним окружењем." ;
     ns1:has_name "Završni rad - izrada i odbrana" .
 
-<http://example.org/ka/Big_Data_Systems_(BDS)> ns1:has_knowledge_area_name "Big Data Systems (BDS)" .
+<http://example.org/ka/Component_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Component Security" .
 
-<http://example.org/ka/Data_Mining_(DM)> ns1:has_knowledge_area_name "Data Mining (DM)" .
+<http://example.org/ka/IAS-Information_Assurance_and_Security> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "IAS-Information Assurance and Security" .
 
-<http://example.org/ka/Data_Security> ns1:has_knowledge_area_name "Data Security" .
+<http://example.org/ka/ITE-GPP_Global_Professional_Practice> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-GPP Global Professional Practice" .
 
-<http://example.org/ka/HCI-Human-Computer_Interaction> ns1:has_knowledge_area_name "HCI-Human-Computer Interaction" .
+<http://example.org/ka/NC-Networking_and_Communication> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "NC-Networking and Communication" .
 
-<http://example.org/ka/IM-Information_Management> ns1:has_knowledge_area_name "IM-Information Management" .
+<http://example.org/ka/Software_Design> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Design" .
 
-<http://example.org/ka/Software_Measurement> ns1:has_knowledge_area_name "Software Measurement" .
-
-<http://example.org/ka/Software_Quality> ns1:has_knowledge_area_name "Software Quality" .
+<http://example.org/ka/Software_Testing> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Testing" .
 
 ns1:Diplomski_rad_-_istraživački_rad ns1:has_content "Формира се појединачно у складу са потребама и облашћу која је обухваћена задатом темом завршног рада. Студент проучава стручну литературу, стручне и дипломске радове студената који се баве сличном тематиком, врши анализе у циљу изналажења решења конкретног задатка који је дефинисан задатком завршног рада.",
         "Формира се појединачно у складу са потребама и облашћу која је обухваћена задатом темом завршног рада. Студент у договору са ментором сачињава завршни рад у писменој форми у складу са предвиђеним стандардима Факултета техничких наука у Новом Саду. Студент припрема и брани писмени завршни рад јавно у договору са ментором и у складу са предвиђеним стандардима. Студент проучава стручну литературу, стручне и дипломске радове студената који се баве сличном тематиком, врши анализе у циљу изналажења решења конкретног задатка који је дефинисан задатком завршног рада.",
@@ -3915,9 +3929,26 @@ ns1:Diplomski_rad_-_izrada_i_odbrana ns1:has_content "Формира се пој
         "Оспособљавање студената да самостално примењују претходно стечена знања из различитих области које су претходно изучавали, ради сагледавања структуре задатог проблема и његовој систематској анализи у циљу извођења закључака о могућим правцима његовог решавања. Кроз самостално коришћење литературе, студенти проширују знања из изабране области и проучавају различите методе и радове који се односе на сличну проблематику. Самостално изучавајући и решавајући задатке из области задате теме, студенти стичу знања о комплексности и сложености проблема из области њихове струке. Израдом дипломског рада студенти стичу одређена искуства која могу применити у пракси приликом решавања проблема из области њихове струке. Припремом резултата за јавну одбрану, јавном одбраном и одговорима на питања и примедбе комисије студент стиче неопходно искуство о начину на који у пракси треба презентовати резултате самосталног или колективног рада." ;
     ns1:has_name "Diplomski rad - izrada i odbrana" .
 
-<http://example.org/ka/Behavioral_Attributes> ns1:has_knowledge_area_name "Behavioral Attributes" .
+<http://example.org/ka/Big_Data_Systems_(BDS)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Big Data Systems (BDS)" .
 
-<http://example.org/ka/ITE-SWF_Software_Fundamentals> ns1:has_knowledge_area_name "ITE-SWF Software Fundamentals" .
+<http://example.org/ka/Data_Mining_(DM)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Data Mining (DM)" .
+
+<http://example.org/ka/Data_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Data Security" .
+
+<http://example.org/ka/HCI-Human-Computer_Interaction> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "HCI-Human-Computer Interaction" .
+
+<http://example.org/ka/IM-Information_Management> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "IM-Information Management" .
+
+<http://example.org/ka/Software_Measurement> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Measurement" .
+
+<http://example.org/ka/Software_Quality> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Quality" .
 
 ns1:Algebra ns1:has_content "Комплексни бројеви, Полиноми и рационалне функције, Системи линеарних једначина, Детерминанте, Матрице, Векторски простори, Линеарне трансформације, Вектри у простору , Аналитичка геометрија у простору",
         "Предавања (теоријска настава). Логика, релације, функције, Булова алгебра, групе, прстени, поља, полиноми, комплексни бројеви, коначна поља, слободни вектори, аналитичка геометрија у простору (векторски!), детерминате, системи линеарних једначина, векторски простори, матрице, карактеристични корени и вектори. Практицна настава (вежбе): На вежбама се раде одговарајуци примери и тестови са теоријске наставе којим се увежбава дато градиво а самим тим вежбе доприносе и разумевању датог градива.",
@@ -3964,9 +3995,27 @@ ns1:Fizika ns1:has_content "Атомска и молекуларна струк�
         "Стечена знања ће бити коришћена у стручним предметима за разумевање физичке суштине техничких процеса." ;
     ns1:has_name "Fizika" .
 
-<http://example.org/ka/PBD-Platform-based_Development> ns1:has_knowledge_area_name "PBD-Platform-based Development" .
+<http://example.org/ka/Behavioral_Attributes> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Behavioral Attributes" .
 
-<http://example.org/ka/Software_Development_and_Maintenance_(SDM)> ns1:has_knowledge_area_name "Software Development and Maintenance (SDM)" .
+<http://example.org/ka/ITE-SWF_Software_Fundamentals> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-SWF Software Fundamentals" .
+
+<http://example.org/discipline/Cybesecurity> ns1:has_discipline_name "Cybesecurity" ;
+    ns1:has_knowledge_area <http://example.org/ka/Component_Security>,
+        <http://example.org/ka/Connection_Security>,
+        <http://example.org/ka/Data_Security>,
+        <http://example.org/ka/Human_Security>,
+        <http://example.org/ka/Organizational_Security>,
+        <http://example.org/ka/Societal_Security>,
+        <http://example.org/ka/Software_Security>,
+        <http://example.org/ka/System_Security> .
+
+<http://example.org/ka/PBD-Platform-based_Development> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "PBD-Platform-based Development" .
+
+<http://example.org/ka/Software_Development_and_Maintenance_(SDM)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Software Development and Maintenance (SDM)" .
 
 ns1:Stručna_praksa ns1:has_content "- Упознавање конкретног производног процеса графичког предузећа. - Организација графичке производње. - Пословне функције. - Служба унапређења и развоја. - Припрема графичке производње. - Техничко- технолошка припрема. - Графичко обликовање и дизајн производа. - Оперативна припрема производње. - Производња графичких производа. - Гафички системи производног процеса. - Одржавање и ремонт. - Квалитет и контрола квалитета. - Пријемна и завршна контрола. - Заштита на раду. - Заштита околине. Конкретан програм: Конкретан програм стручне праксе допуњује се специфичностима радне организације у којој се обављања стручна пракса.",
         "Решавање конкретних инжењерски проблеми у пракси.",
@@ -3992,87 +4041,216 @@ ns1:Stručna_praksa ns1:has_content "- Упознавање конкретног
         "Стечена знања се могу користити у решавању конкретних инжењерских проблема." ;
     ns1:has_name "Stručna praksa" .
 
-<http://example.org/ka/Mobile_Development> ns1:has_knowledge_area_name "Mobile Development" .
+<http://example.org/discipline/Software_Engineering> ns1:has_discipline_name "Software Engineering" ;
+    ns1:has_knowledge_area <http://example.org/ka/Behavioral_Attributes>,
+        <http://example.org/ka/Project_Management>,
+        <http://example.org/ka/Software_Construction>,
+        <http://example.org/ka/Software_Design>,
+        <http://example.org/ka/Software_Measurement>,
+        <http://example.org/ka/Software_Process_and_Life_Cycle>,
+        <http://example.org/ka/Software_Quality>,
+        <http://example.org/ka/Software_Systems_Engineering>,
+        <http://example.org/ka/Software_Testing> .
 
-<http://example.org/ka/Software_Construction> ns1:has_knowledge_area_name "Software Construction" .
+<http://example.org/discipline/Data_Science> ns1:has_discipline_name "Data Science" ;
+    ns1:has_knowledge_area <http://example.org/ka/Analysis_and_Presentation_(AP)>,
+        <http://example.org/ka/Big_Data_Systems_(BDS)>,
+        <http://example.org/ka/Computing_and_Computer_Fundamentals_(CCF)>,
+        <http://example.org/ka/Data_Acquisition,_Management,_and_Governance_(DG)>,
+        <http://example.org/ka/Data_Mining_(DM)>,
+        <http://example.org/ka/Data_Privacy,_Security,_Integrity,_and_Analysis_for_Security_(DP)>,
+        <http://example.org/ka/Machine_Learning_(ML)>,
+        <http://example.org/ka/Professionalism_(PR)>,
+        <http://example.org/ka/Programming,_Data_Structures,_and_Algorithms_(PDA)>,
+        <http://example.org/ka/Software_Development_and_Maintenance_(SDM)> .
 
-<http://example.org/ka/Computing_and_Computer_Fundamentals_(CCF)> ns1:has_knowledge_area_name "Computing and Computer Fundamentals (CCF)" .
+<http://example.org/discipline/Information_technology> ns1:has_discipline_name "Information technology" ;
+    ns1:has_knowledge_area <http://example.org/ka/ITE-CSP_Cybersecurity_Principles>,
+        <http://example.org/ka/ITE-GPP_Global_Professional_Practice>,
+        <http://example.org/ka/ITE-IMA_Information_Management>,
+        <http://example.org/ka/ITE-IST_Integrated_Systems_Technology>,
+        <http://example.org/ka/ITE-NET_Networking>,
+        <http://example.org/ka/ITE-PFT_Platform_Technologies>,
+        <http://example.org/ka/ITE-SPA_System_Paradigms>,
+        <http://example.org/ka/ITE-SWF_Software_Fundamentals>,
+        <http://example.org/ka/ITE-UXD_User_Experience_Design>,
+        <http://example.org/ka/ITE-WMS_Web_and_Mobile_Systems> .
 
-<http://example.org/ka/PL-Programming_Languages> ns1:has_knowledge_area_name "PL-Programming Languages" .
+<http://example.org/ka/Mobile_Development> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Mobile Development" .
 
-<http://example.org/ka/Machine_Learning_(ML)> ns1:has_knowledge_area_name "Machine Learning (ML)" .
+<http://example.org/ka/Software_Construction> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Construction" .
 
-<http://example.org/ka/CE-NWK_Computer_Networks> ns1:has_knowledge_area_name "CE-NWK Computer Networks" .
+<http://example.org/discipline/Computer_Engineering> ns1:has_discipline_name "Computer Engineering" ;
+    ns1:has_knowledge_area <http://example.org/ka/CE-CAE_Circuits_and_Electronics>,
+        <http://example.org/ka/CE-CAE_Computing_Algorithms>,
+        <http://example.org/ka/CE-CAO_Computer_Architecture_and_Organization>,
+        <http://example.org/ka/CE-DIG_Digital_Design>,
+        <http://example.org/ka/CE-ESY_Embedded_Systems>,
+        <http://example.org/ka/CE-NWK_Computer_Networks>,
+        <http://example.org/ka/CE-SEC_Information_Security>,
+        <http://example.org/ka/CE-SGP_Signal_Processing>,
+        <http://example.org/ka/CE-SPE_Systems_and_Project_Engineering>,
+        <http://example.org/ka/CE-SRM_System_Resource_Management>,
+        <http://example.org/ka/CE-SWD_Software_Design> .
 
-<http://example.org/ka/Data_and_Information_Visualization> ns1:has_knowledge_area_name "Data and Information Visualization" .
+<http://example.org/ka/Computing_and_Computer_Fundamentals_(CCF)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Computing and Computer Fundamentals (CCF)" .
 
-<http://example.org/ka/ITE-NET_Networking> ns1:has_knowledge_area_name "ITE-NET Networking" .
+<http://example.org/ka/PL-Programming_Languages> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "PL-Programming Languages" .
 
-<http://example.org/ka/ITE-IST_Integrated_Systems_Technology> ns1:has_knowledge_area_name "ITE-IST Integrated Systems Technology" .
+<http://example.org/ka/Machine_Learning_(ML)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Machine Learning (ML)" .
 
-<http://example.org/ka/Software_Systems_Engineering> ns1:has_knowledge_area_name "Software Systems Engineering" .
+<http://example.org/ka/CE-NWK_Computer_Networks> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-NWK Computer Networks" .
 
-<http://example.org/ka/Application_Development_and_Programming> ns1:has_knowledge_area_name "Application Development and Programming" .
+<http://example.org/ka/Data_and_Information_Visualization> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Data and Information Visualization" .
 
-<http://example.org/ka/Data_and_Information_Management> ns1:has_knowledge_area_name "Data and Information Management" .
+<http://example.org/ka/ITE-NET_Networking> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-NET Networking" .
 
-<http://example.org/ka/Object-Orientation> ns1:has_knowledge_area_name "Object-Orientation" .
+<http://example.org/ka/ITE-IST_Integrated_Systems_Technology> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-IST Integrated Systems Technology" .
 
-<http://example.org/ka/ITE-SPA_System_Paradigms> ns1:has_knowledge_area_name "ITE-SPA System Paradigms" .
+<http://example.org/ka/Software_Systems_Engineering> ns1:belongs_to_discipline <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Software Systems Engineering" .
 
-<http://example.org/ka/Connection_Security> ns1:has_knowledge_area_name "Connection Security" .
+<http://example.org/ka/Application_Development_and_Programming> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Application Development and Programming" .
 
-<http://example.org/ka/ITE-WMS_Web_and_Mobile_Systems> ns1:has_knowledge_area_name "ITE-WMS Web and Mobile Systems" .
+<http://example.org/ka/Data_and_Information_Management> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Data and Information Management" .
 
-<http://example.org/ka/Project_Management> ns1:has_knowledge_area_name "Project Management" .
+<http://example.org/discipline/Information_systems> ns1:has_discipline_name "Information systems" ;
+    ns1:has_knowledge_area <http://example.org/ka/Application_Development_and_Programming>,
+        <http://example.org/ka/Data_and_Business_Analytics>,
+        <http://example.org/ka/Data_and_Information_Management>,
+        <http://example.org/ka/Data_and_Information_Visualization>,
+        <http://example.org/ka/Digital_Innovation>,
+        <http://example.org/ka/Emerging_Technologies>,
+        <http://example.org/ka/IS_Ethics,_Sustainability,_Use_and_Implications_for_Society>,
+        <http://example.org/ka/IS_Management_and_Strategy>,
+        <http://example.org/ka/IS_Practicum>,
+        <http://example.org/ka/Mobile_Development>,
+        <http://example.org/ka/Object-Orientation>,
+        <http://example.org/ka/Project_Management>,
+        <http://example.org/ka/Secure_Computing>,
+        <http://example.org/ka/Systems_Analysis_and_Design>,
+        <http://example.org/ka/User_Interface_Design>,
+        <http://example.org/ka/Web_Development> .
 
-<http://example.org/ka/CE-CAO_Computer_Architecture_and_Organization> ns1:has_knowledge_area_name "CE-CAO Computer Architecture and Organization" .
+<http://example.org/ka/Object-Orientation> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Object-Orientation" .
 
-<http://example.org/ka/CE-SGP_Signal_Processing> ns1:has_knowledge_area_name "CE-SGP Signal Processing" .
+<http://example.org/discipline/Computer_science> ns1:has_discipline_name "Computer science" ;
+    ns1:has_knowledge_area <http://example.org/ka/AL-Algorithms_and_Complexity>,
+        <http://example.org/ka/AR-Architecture_and_Organization>,
+        <http://example.org/ka/CN-Computational_Science>,
+        <http://example.org/ka/DS-Discrete_Structures>,
+        <http://example.org/ka/GV-Graphics_and_Visualization>,
+        <http://example.org/ka/HCI-Human-Computer_Interaction>,
+        <http://example.org/ka/IAS-Information_Assurance_and_Security>,
+        <http://example.org/ka/IM-Information_Management>,
+        <http://example.org/ka/IS-Intelligent_Systems>,
+        <http://example.org/ka/NC-Networking_and_Communication>,
+        <http://example.org/ka/OS-Operating_Systems>,
+        <http://example.org/ka/PBD-Platform-based_Development>,
+        <http://example.org/ka/PD-Parallel_and_Distributed_Computing>,
+        <http://example.org/ka/PL-Programming_Languages>,
+        <http://example.org/ka/SDF-Software_Development_Fundamentals>,
+        <http://example.org/ka/SE-Software_Engineering>,
+        <http://example.org/ka/SF-Systems_Fundamentals>,
+        <http://example.org/ka/SP-Social_Issues_and_Professional_Practice> .
 
-<http://example.org/ka/DS-Discrete_Structures> ns1:has_knowledge_area_name "DS-Discrete Structures" .
+<http://example.org/ka/ITE-SPA_System_Paradigms> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-SPA System Paradigms" .
 
-<http://example.org/ka/ITE-IMA_Information_Management> ns1:has_knowledge_area_name "ITE-IMA Information Management" .
+<http://example.org/ka/Connection_Security> ns1:belongs_to_discipline <http://example.org/discipline/Cybesecurity> ;
+    ns1:has_knowledge_area_name "Connection Security" .
 
-<http://example.org/ka/SF-Systems_Fundamentals> ns1:has_knowledge_area_name "SF-Systems Fundamentals" .
+<http://example.org/ka/ITE-WMS_Web_and_Mobile_Systems> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-WMS Web and Mobile Systems" .
 
-<http://example.org/ka/Data_Acquisition,_Management,_and_Governance_(DG)> ns1:has_knowledge_area_name "Data Acquisition, Management, and Governance (DG)" .
+<http://example.org/ka/CE-CAO_Computer_Architecture_and_Organization> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-CAO Computer Architecture and Organization" .
 
-<http://example.org/ka/Programming,_Data_Structures,_and_Algorithms_(PDA)> ns1:has_knowledge_area_name "Programming, Data Structures, and Algorithms (PDA)" .
+<http://example.org/ka/CE-SGP_Signal_Processing> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-SGP Signal Processing" .
 
-<http://example.org/ka/CE-CAE_Computing_Algorithms> ns1:has_knowledge_area_name "CE-CAE Computing Algorithms" .
+<http://example.org/ka/Project_Management> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems>,
+        <http://example.org/discipline/Software_Engineering> ;
+    ns1:has_knowledge_area_name "Project Management" .
 
-<http://example.org/ka/Web_Development> ns1:has_knowledge_area_name "Web Development" .
+<http://example.org/ka/DS-Discrete_Structures> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "DS-Discrete Structures" .
 
-<http://example.org/ka/CE-SWD_Software_Design> ns1:has_knowledge_area_name "CE-SWD Software Design" .
+<http://example.org/ka/ITE-IMA_Information_Management> ns1:belongs_to_discipline <http://example.org/discipline/Information_technology> ;
+    ns1:has_knowledge_area_name "ITE-IMA Information Management" .
 
-<http://example.org/ka/SP-Social_Issues_and_Professional_Practice> ns1:has_knowledge_area_name "SP-Social Issues and Professional Practice" .
+<http://example.org/ka/SF-Systems_Fundamentals> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "SF-Systems Fundamentals" .
 
-<http://example.org/ka/IS_Practicum> ns1:has_knowledge_area_name "IS Practicum" .
+<http://example.org/ka/Data_Acquisition,_Management,_and_Governance_(DG)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Data Acquisition, Management, and Governance (DG)" .
 
-<http://example.org/ka/AL-Algorithms_and_Complexity> ns1:has_knowledge_area_name "AL-Algorithms and Complexity" .
+<http://example.org/ka/Programming,_Data_Structures,_and_Algorithms_(PDA)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Programming, Data Structures, and Algorithms (PDA)" .
 
-<http://example.org/ka/CE-ESY_Embedded_Systems> ns1:has_knowledge_area_name "CE-ESY Embedded Systems" .
+<http://example.org/ka/CE-CAE_Computing_Algorithms> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-CAE Computing Algorithms" .
 
-<http://example.org/ka/Digital_Innovation> ns1:has_knowledge_area_name "Digital Innovation" .
+<http://example.org/ka/Web_Development> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Web Development" .
 
-<http://example.org/ka/GV-Graphics_and_Visualization> ns1:has_knowledge_area_name "GV-Graphics and Visualization" .
+<http://example.org/ka/CE-SWD_Software_Design> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-SWD Software Design" .
 
-<http://example.org/ka/CE-DIG_Digital_Design> ns1:has_knowledge_area_name "CE-DIG Digital Design" .
+<http://example.org/ka/SP-Social_Issues_and_Professional_Practice> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "SP-Social Issues and Professional Practice" .
 
-<http://example.org/ka/Systems_Analysis_and_Design> ns1:has_knowledge_area_name "Systems Analysis and Design" .
+<http://example.org/ka/IS_Practicum> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "IS Practicum" .
 
-<http://example.org/ka/OS-Operating_Systems> ns1:has_knowledge_area_name "OS-Operating Systems" .
+<http://example.org/ka/AL-Algorithms_and_Complexity> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "AL-Algorithms and Complexity" .
 
-<http://example.org/ka/CE-SPE_Systems_and_Project_Engineering> ns1:has_knowledge_area_name "CE-SPE Systems and Project Engineering" .
+<http://example.org/ka/CE-ESY_Embedded_Systems> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-ESY Embedded Systems" .
 
-<http://example.org/ka/AR-Architecture_and_Organization> ns1:has_knowledge_area_name "AR-Architecture and Organization" .
+<http://example.org/ka/Digital_Innovation> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Digital Innovation" .
 
-<http://example.org/ka/IS-Intelligent_Systems> ns1:has_knowledge_area_name "IS-Intelligent Systems" .
+<http://example.org/ka/GV-Graphics_and_Visualization> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "GV-Graphics and Visualization" .
 
-<http://example.org/ka/Analysis_and_Presentation_(AP)> ns1:has_knowledge_area_name "Analysis and Presentation (AP)" .
+<http://example.org/ka/CE-DIG_Digital_Design> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-DIG Digital Design" .
 
-<http://example.org/ka/CN-Computational_Science> ns1:has_knowledge_area_name "CN-Computational Science" .
+<http://example.org/ka/Systems_Analysis_and_Design> ns1:belongs_to_discipline <http://example.org/discipline/Information_systems> ;
+    ns1:has_knowledge_area_name "Systems Analysis and Design" .
 
-<http://example.org/ka/CE-CAE_Circuits_and_Electronics> ns1:has_knowledge_area_name "CE-CAE Circuits and Electronics" .
+<http://example.org/ka/OS-Operating_Systems> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "OS-Operating Systems" .
+
+<http://example.org/ka/CE-SPE_Systems_and_Project_Engineering> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-SPE Systems and Project Engineering" .
+
+<http://example.org/ka/AR-Architecture_and_Organization> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "AR-Architecture and Organization" .
+
+<http://example.org/ka/IS-Intelligent_Systems> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "IS-Intelligent Systems" .
+
+<http://example.org/ka/Analysis_and_Presentation_(AP)> ns1:belongs_to_discipline <http://example.org/discipline/Data_Science> ;
+    ns1:has_knowledge_area_name "Analysis and Presentation (AP)" .
+
+<http://example.org/ka/CN-Computational_Science> ns1:belongs_to_discipline <http://example.org/discipline/Computer_science> ;
+    ns1:has_knowledge_area_name "CN-Computational Science" .
+
+<http://example.org/ka/CE-CAE_Circuits_and_Electronics> ns1:belongs_to_discipline <http://example.org/discipline/Computer_Engineering> ;
+    ns1:has_knowledge_area_name "CE-CAE Circuits and Electronics" .
 
