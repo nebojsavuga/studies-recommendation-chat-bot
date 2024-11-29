@@ -1,7 +1,7 @@
 @prefix ns1: <http://example.org/course/> .
 @prefix ns2: <http://example.org/program/> .
 
-ns1:Animacija_u_inženjerstvu ns1:has_course ns1:Akustika_i_audio-tehnika_u_multimediji,
+ns2:Animacija_u_inženjerstvu ns1:has_course ns1:Akustika_i_audio-tehnika_u_multimediji,
         ns1:Algebra,
         ns1:Animacija_karaktera,
         ns1:Crtanje_za_animaciju_i_vizuelne_efekte,
@@ -43,7 +43,7 @@ ns1:Animacija_u_inženjerstvu ns1:has_course ns1:Akustika_i_audio-tehnika_u_mult
     ns2:has_title "Diplomirani inženjer računarske grafike (Dipl. inž. račun. grafik.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Biomedicinsko_inženjerstvo ns1:has_course ns1:Analiza_i_obrada_biomedicinskih_signala,
+ns2:Biomedicinsko_inženjerstvo ns1:has_course ns1:Analiza_i_obrada_biomedicinskih_signala,
         ns1:Biomedicinska_instrumentacija,
         ns1:Biomedicinski_inženjering_u_sportskoj_fiziologiji,
         ns1:Biomehanika,
@@ -85,7 +85,7 @@ ns1:Biomedicinsko_inženjerstvo ns1:has_course ns1:Analiza_i_obrada_biomedicinsk
     ns2:has_title "Diplomirani inženjer biomedicinskog inženjerstva (Dipl. inž. biomed. inženj.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Elektrotehnika ns1:has_course ns1:Akustika_i_audio-tehnika,
+ns2:Elektrotehnika ns1:has_course ns1:Akustika_i_audio-tehnika,
         ns1:Digitalna_elektronika,
         ns1:Elektroenergetski_sistemi,
         ns1:Elektromotorni_pogoni,
@@ -123,7 +123,7 @@ ns1:Elektrotehnika ns1:has_course ns1:Akustika_i_audio-tehnika,
     ns2:has_title "Strukovni inženjer elektrotehnike i računarstva (Struk. inž. elektr. i računar.)" ;
     ns2:has_type_of_studies "Osnovne strukovne studije" .
 
-<http://example.org/course/Energetika,_elektronika_i_telekomunikacije> ns1:has_course ns1:Algebra,
+<http://example.org/program/Energetika,_elektronika_i_telekomunikacije> ns1:has_course ns1:Algebra,
         ns1:Analiza_elektroenergetskih_sistema_1,
         ns1:Analiza_elektroenergetskih_sistema_2,
         ns1:Analiza_elektroenergetskih_sistema_3,
@@ -211,7 +211,7 @@ ns1:Elektrotehnika ns1:has_course ns1:Akustika_i_audio-tehnika,
     ns2:has_title "Diplomirani inženjer elektrotehnike i računarstva (Dipl. inž. elektr. i računar.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Grafičko_inženjerstvo_i_dizajn ns1:has_course ns1:Digitalna_reprodukcija,
+ns2:Grafičko_inženjerstvo_i_dizajn ns1:has_course ns1:Digitalna_reprodukcija,
         ns1:Diplomski_rad_-_istraživački_rad,
         ns1:Diplomski_rad_-_izrada_i_odbrana,
         ns1:Dizajn_ambalaže,
@@ -247,7 +247,7 @@ ns1:Grafičko_inženjerstvo_i_dizajn ns1:has_course ns1:Digitalna_reprodukcija,
     ns2:has_title "Diplomirani inženjer grafičkog inženjerstva i dizajna (Dipl. inž. graf. inženj. i diz.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Informacioni_inženjering ns1:has_course ns1:Algebra,
+ns2:Informacioni_inženjering ns1:has_course ns1:Algebra,
         ns1:Arhitektura_računara,
         ns1:Baze_podataka_1,
         ns1:Baze_podataka_2,
@@ -284,7 +284,7 @@ ns1:Informacioni_inženjering ns1:has_course ns1:Algebra,
     ns2:has_title "Diplomirani inženjer informacionog inženjeringa (Dipl. inž. inf. inženj.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Inženjerstvo_informacionih_sistema ns1:has_course ns1:Algebra,
+ns2:Inženjerstvo_informacionih_sistema ns1:has_course ns1:Algebra,
         ns1:Algoritmi_i_strukture_podataka,
         ns1:Analiza_i_modeliranje_poslovnih_procesa,
         ns1:Arhitektura_informacionih_sistema_i_računarske_mreže,
@@ -326,7 +326,7 @@ ns1:Inženjerstvo_informacionih_sistema ns1:has_course ns1:Algebra,
     ns2:has_title "Diplomirani inženjer informacionih tehnologija (Dipl. inž. inform. tehnol.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Mehatronika ns1:has_course ns1:Analogna_elektronika,
+ns2:Mehatronika ns1:has_course ns1:Analogna_elektronika,
         ns1:Automatizacija_procesa_rada,
         ns1:Automatsko_upravljanje_2,
         ns1:Digitalna_elektronika,
@@ -363,7 +363,7 @@ ns1:Mehatronika ns1:has_course ns1:Analogna_elektronika,
     ns2:has_title "Diplomirani inženjer mehatronike (Dipl. inž. mehatron.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Primenjeno_softversko_inženjerstvo ns1:has_course ns1:Akviziciono_upravljački_sistemi,
+ns2:Primenjeno_softversko_inženjerstvo ns1:has_course ns1:Akviziciono_upravljački_sistemi,
         ns1:Algebra,
         ns1:Arhitektura_računara,
         ns1:Diplomski_rad_-_istraživački_rad,
@@ -395,7 +395,7 @@ ns1:Primenjeno_softversko_inženjerstvo ns1:has_course ns1:Akviziciono_upravlja�
     ns2:has_title "Diplomirani inženjer elektrotehnike i računarstva (Dipl. inž. elektr. i računar.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Računarstvo_i_automatika ns1:has_course ns1:Algebra,
+ns2:Računarstvo_i_automatika ns1:has_course ns1:Algebra,
         ns1:Algoritmi_digitalne_obrade_slike,
         ns1:Algoritmi_digitalne_obrade_zvuka,
         ns1:Arhitektura_računara,
@@ -446,7 +446,7 @@ ns1:Računarstvo_i_automatika ns1:has_course ns1:Algebra,
     ns2:has_title "Diplomirani inženjer elektrotehnike i računarstva (Dipl. inž. elektr. i računar.)" ;
     ns2:has_type_of_studies "Osnovne akademske studije" .
 
-ns1:Softverske_i_informacione_tehnologije ns1:has_course ns1:Alati_za_razvoj_softvera,
+ns2:Softverske_i_informacione_tehnologije ns1:has_course ns1:Alati_za_razvoj_softvera,
         ns1:Algoritmi_i_strukture_podataka,
         ns1:Engleski_jezik_1,
         ns1:Engleski_jezik_2,
@@ -476,7 +476,7 @@ ns1:Softverske_i_informacione_tehnologije ns1:has_course ns1:Alati_za_razvoj_sof
     ns2:has_title "Strukovni inženjer softvera (Struk. inž. softv.)" ;
     ns2:has_type_of_studies "Osnovne strukovne studije" .
 
-ns1:Softversko_inženjerstvo_i_informacione_tehnologije ns1:has_course ns1:Algebra,
+ns2:Softversko_inženjerstvo_i_informacione_tehnologije ns1:has_course ns1:Algebra,
         ns1:Algoritmi_i_strukture_podataka,
         ns1:Arhitektura_računara,
         ns1:Baze_podataka,
