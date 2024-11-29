@@ -50,6 +50,17 @@ for program_name, program_details in course_data.items():
                 "description": f"{subject['cilj']} {subject['ishod']} {subject['sadrzaj']}",
             }
         )
+    for key, value in program_details.items():
+        if key.startswith("Izbor") and isinstance(value, list):
+            print(key)
+            for subject in value:
+                if isinstance(subject, dict) and "ime" in subject:  # Proveravamo format predmeta
+                    courses.append(
+                        {
+                            "name": subject["ime"],
+                            "description": f"{subject.get('cilj', '')} {subject.get('ishod', '')} {subject.get('sadrzaj', '')}",
+                        }
+                    )
 print(f"Extracted {len(courses)} courses.")
 
 for domain, domain_details in acm_data.items():
@@ -95,7 +106,7 @@ for i, course in enumerate(courses):
     )
 print("Course mapping completed.")
 
-output_path = "mapped_courses_faiss.json"
+output_path = "test2.json"
 print(f"Saving results to {output_path}...")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(mapped_courses, f, ensure_ascii=False, indent=4)
