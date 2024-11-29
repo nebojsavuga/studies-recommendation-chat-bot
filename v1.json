@@ -1,0 +1,4026 @@
+[
+    {
+        "course_name": "Osnove programiranja",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "ITE-SWF Software Fundamentals",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Arhitektura računara",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "ITE-SPA System Paradigms",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Sociologija tehnike",
+        "knowledge areas": [
+            "Emerging Technologies",
+            "Digital Innovation",
+            "ITE-GPP Global Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Web dizajn",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Internet mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "NC-Networking and Communication"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisano programiranje 1",
+        "knowledge areas": [
+            "Object-Orientation",
+            "PL-Programming Languages",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Algoritmi i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "ITE-SWF Software Fundamentals",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisano programiranje 2",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "Object-Orientation",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Organizacija podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "IM-Information Management"
+        ]
+    },
+    {
+        "course_name": "Numerički algoritmi i numerički softver",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Nelinearno programiranje i evolutivni algoritmi",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "IS-Intelligent Systems",
+            "Machine Learning (ML)"
+        ]
+    },
+    {
+        "course_name": "Diskretna matematika",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "CE-CAE Computing Algorithms",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Uvod u softversko inženjerstvo",
+        "knowledge areas": [
+            "Software Development and Maintenance (SDM)",
+            "Systems Analysis and Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Specifikacija i modeliranje softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "SE-Software Engineering",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Upravljanje informacijama",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Baze podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "IM-Information Management"
+        ]
+    },
+    {
+        "course_name": "Operativni sistemi",
+        "knowledge areas": [
+            "ITE-SPA System Paradigms",
+            "CE-SPE Systems and Project Engineering",
+            "Computing and Computer Fundamentals (CCF)"
+        ]
+    },
+    {
+        "course_name": "Softverski obrasci i komponente",
+        "knowledge areas": [
+            "Object-Orientation",
+            "Software Design",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Metodologije razvoja softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "CE-SWD Software Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Inženjerstvo serverskog sloja",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "Software Construction"
+        ]
+    },
+    {
+        "course_name": "Testiranje softvera",
+        "knowledge areas": [
+            "Software Testing",
+            "Software Development and Maintenance (SDM)",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Inženjerstvo klijentskog sloja",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "PBD-Platform-based Development"
+        ]
+    },
+    {
+        "course_name": "Mobilne aplikacije",
+        "knowledge areas": [
+            "Mobile Development",
+            "ITE-WMS Web and Mobile Systems",
+            "PBD-Platform-based Development"
+        ]
+    },
+    {
+        "course_name": "Računarstvo u oblaku",
+        "knowledge areas": [
+            "Software Construction",
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems"
+        ]
+    },
+    {
+        "course_name": "Interakcija čovek računar",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "HCI-Human-Computer Interaction",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Informaciona bezbednost",
+        "knowledge areas": [
+            "Data Security",
+            "Data Privacy, Security, Integrity, and Analysis for Security (DP)",
+            "ITE-CSP Cybersecurity Principles"
+        ]
+    },
+    {
+        "course_name": "Računarska inteligencija",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Machine Learning (ML)",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Statistika",
+        "knowledge areas": [
+            "Data and Information Visualization",
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa - projekat",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Pisana i govorna komunikacija u tehnici",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Behavioral Attributes",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Završni rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Završni rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Енглески језик - основни",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Behavioral Attributes",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Енглески језик - средњи",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Analysis and Presentation (AP)",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Енглески језик – виши",
+        "knowledge areas": [
+            "Software Construction",
+            "IS-Intelligent Systems",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Увод у инжењерску анимацију",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Напредни алгоритми и структуре података",
+        "knowledge areas": [
+            "Big Data Systems (BDS)",
+            "SDF-Software Development Fundamentals",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Дизајн 3Д простора и окружења",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "IS Practicum",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Паралелно програмирање",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "PD-Parallel and Distributed Computing",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Професионални портфолио запослених",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Analysis and Presentation (AP)",
+            "Professionalism (PR)"
+        ]
+    },
+    {
+        "course_name": "Индустријска психологија",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Project Management",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Дистрибуирани системи у геоматици",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "IS Practicum",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Софтвер надзорно-управљачких система",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Напредне технике програмирања",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "Object-Orientation",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Међурачунарске комуникације и рачунарске мреже 1",
+        "knowledge areas": [
+            "ITE-NET Networking",
+            "CE-NWK Computer Networks",
+            "NC-Networking and Communication"
+        ]
+    },
+    {
+        "course_name": "Базе података 2",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Напредне веб технологије",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Алгоритми дигиталне обраде звука",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Инжењерство софтвера за Internet/Web of Things",
+        "knowledge areas": [
+            "ITE-WMS Web and Mobile Systems",
+            "Mobile Development",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Напредно C програмирање у реалном времену",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "AR-Architecture and Organization",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Програмски преводиоци",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "PL-Programming Languages",
+            "Computing and Computer Fundamentals (CCF)"
+        ]
+    },
+    {
+        "course_name": "Симулације у анимацији",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "IS Practicum",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Рачунарска графика",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAO Computer Architecture and Organization",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Аутомобилски софтвер",
+        "knowledge areas": [
+            "CE-ESY Embedded Systems",
+            "CE-SWD Software Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Софт компјутинг",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CN-Computational Science",
+            "Big Data Systems (BDS)"
+        ]
+    },
+    {
+        "course_name": "Оперативни системи за рад у реалном времену",
+        "knowledge areas": [
+            "CE-SRM System Resource Management",
+            "SF-Systems Fundamentals",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Софтвер у дигиталној телевизији 1",
+        "knowledge areas": [
+            "Digital Innovation",
+            "GV-Graphics and Visualization",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Архитектуре и методе пројектовања безбедносно критичног софтвера у аутомобилској индустрији",
+        "knowledge areas": [
+            "Software Security",
+            "Software Development and Maintenance (SDM)",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Развој софтвера вођен моделима",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Data and Information Management",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Машинско учење",
+        "knowledge areas": [
+            "Machine Learning (ML)",
+            "CN-Computational Science",
+            "Data Mining (DM)"
+        ]
+    },
+    {
+        "course_name": "Архитектуре и алгоритми ДСП-а",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Computing and Computer Fundamentals (CCF)",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Развој безбедног софтвера",
+        "knowledge areas": [
+            "Secure Computing",
+            "Software Development and Maintenance (SDM)",
+            "Software Security"
+        ]
+    },
+    {
+        "course_name": "Софтверски агенти",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "OS-Operating Systems",
+            "ITE-WMS Web and Mobile Systems"
+        ]
+    },
+    {
+        "course_name": "Микропроцесорски управљачки уређаји",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Принципи дигиталне обраде слике за аутономна возила",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "GV-Graphics and Visualization",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Системи база података",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Пословна информатика",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "IS-Intelligent Systems",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Системи базирани на знању",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Инжењеринг информационих система",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Системско програмирање у Андроиду",
+        "knowledge areas": [
+            "Mobile Development",
+            "PBD-Platform-based Development",
+            "ITE-WMS Web and Mobile Systems"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Programski jezici i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "SDF-Software Development Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Osnove elektrotehnike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Arhitektura računara",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Sociologija tehnike",
+        "knowledge areas": [
+            "Emerging Technologies",
+            "Digital Innovation",
+            "ITE-GPP Global Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Uvod u algoritme",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Diskretna matematika",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "CE-CAE Computing Algorithms",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektroenergetike",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisano programiranje",
+        "knowledge areas": [
+            "Object-Orientation",
+            "CE-SWD Software Design",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Primenjeni algoritmi",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "AL-Algorithms and Complexity",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Operativni sistemi",
+        "knowledge areas": [
+            "CE-SRM System Resource Management",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisane tehnologije",
+        "knowledge areas": [
+            "Object-Orientation",
+            "Systems Analysis and Design",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Sistemi za transport i distribuciju fluida",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "OS-Operating Systems",
+            "Software Systems Engineering"
+        ]
+    },
+    {
+        "course_name": "Programski prevodioci",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "Application Development and Programming",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Uvod u baze podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Modeliranje i simulacija sistema",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "OS-Operating Systems",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Elementi razvoja softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Application Development and Programming",
+            "Software Development and Maintenance (SDM)"
+        ]
+    },
+    {
+        "course_name": "Primena računarskih mreža u infrastrukturnim sistemima",
+        "knowledge areas": [
+            "ITE-NET Networking",
+            "CE-NWK Computer Networks",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Osnove distribuiranog programiranja",
+        "knowledge areas": [
+            "ITE-SPA System Paradigms",
+            "OS-Operating Systems",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Akviziciono upravljački sistemi",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Veb programiranje u infrastrukturnim sistemima",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "PBD-Platform-based Development"
+        ]
+    },
+    {
+        "course_name": "Virtuelizacija procesa",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Inženjerstvo upotrebljivosti u infrastrukturnim sistemima",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "HCI-Human-Computer Interaction",
+            "ITE-UXD User Experience Design"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Projekat",
+        "knowledge areas": [
+            "Project Management",
+            "IS-Intelligent Systems",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Societal Security",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Matematika 1",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Materijali u mašinstvu",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "Software Quality",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Osnove razvoja proizvoda",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Systems Analysis and Design",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Osnove računarstva",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CN-Computational Science",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike 1",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Matematika 2",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "CN-Computational Science",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Materijali u elektrotehnici",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "SF-Systems Fundamentals",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Mehanika 1 - osnove",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CN-Computational Science",
+            "Machine Learning (ML)"
+        ]
+    },
+    {
+        "course_name": "Osnove programiranja",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "ITE-SWF Software Fundamentals",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike 2",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-SGP Signal Processing",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Sociologija tehnike",
+        "knowledge areas": [
+            "Emerging Technologies",
+            "Digital Innovation",
+            "ITE-GPP Global Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Matematika 3",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Mašinski elementi 1",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "CE-ESY Embedded Systems",
+            "Component Security"
+        ]
+    },
+    {
+        "course_name": "Mehanika 2 - opšte",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Otpornost materijala",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Systems Analysis and Design",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Uvod u elektroniku",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-DIG Digital Design",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Mašinski elementi 2",
+        "knowledge areas": [
+            "Component Security",
+            "CE-CAO Computer Architecture and Organization",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Merenja u tehnici",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Software Measurement",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Programiranje i programski jezici",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "Application Development and Programming"
+        ]
+    },
+    {
+        "course_name": "Sistemi automatskog upravljanja",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Digitalna elektronika",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Automatsko upravljanje 2",
+        "knowledge areas": [
+            "Digital Innovation",
+            "OS-Operating Systems",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Mehanika mašina",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "SF-Systems Fundamentals",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Modeliranje i simulacija sistema 1",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Analogna elektronika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Industrijska robotika",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Digital Innovation",
+            "Mobile Development"
+        ]
+    },
+    {
+        "course_name": "Komponente tehnoloških sistema",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Component Security",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Automatizacija procesa rada",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "CE-SPE Systems and Project Engineering",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa - osnovne akademske studije ZS",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Programiranje i primena programabilno logičkih kontrolera",
+        "knowledge areas": [
+            "Application Development and Programming",
+            "CE-SWD Software Design",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Matematika 1",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "CN-Computational Science",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-CAE Computing Algorithms",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "Societal Security"
+        ]
+    },
+    {
+        "course_name": "Osnove računarstva i programiranja",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "ITE-SWF Software Fundamentals",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Mehanika",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "Machine Learning (ML)",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektronike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-DIG Digital Design",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Osnove anatomije za inženjere",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "CE-CAO Computer Architecture and Organization",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Osnove računarstva i objektnog programiranja",
+        "knowledge areas": [
+            "Object-Orientation",
+            "CE-SWD Software Design",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Uvod u signale i sisteme",
+        "knowledge areas": [
+            "Connection Security",
+            "ITE-NET Networking",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Matematika 2",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik za inženjere",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS-Intelligent Systems",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Mikroprocesorski sistemi u medicini",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "GV-Graphics and Visualization",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Električna i elektronska merenja",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "SF-Systems Fundamentals",
+            "Software Measurement"
+        ]
+    },
+    {
+        "course_name": "Osnove biomedicinskog inženjerstva",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Digital Innovation",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Fiziologija sa patofiziologijom",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Human Security",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik za biomedicinsko inženjerstvo",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS-Intelligent Systems",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Digitalna obrada biomedicinskih signala",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-DIG Digital Design",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Sistemi automatskog upravljanja",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "Systems Analysis and Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Modelovanje i simulacija sistema",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Biomehanika",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CN-Computational Science",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Rehabilitacioni uređaji i sistemi",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Materijali i tehnologije izrade elektronskih kola",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Primena radio i mikrotalasa u medicini",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems",
+            "Data Privacy, Security, Integrity, and Analysis for Security (DP)"
+        ]
+    },
+    {
+        "course_name": "Analiza i obrada biomedicinskih signala",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-SGP Signal Processing",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Biomedicinska instrumentacija",
+        "knowledge areas": [
+            "Software Measurement",
+            "Machine Learning (ML)",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Verovatnoća i matematička statistika",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Biomedicinski inženjering u sportskoj fiziologiji",
+        "knowledge areas": [
+            "Data Acquisition, Management, and Governance (DG)",
+            "SF-Systems Fundamentals",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Neuroinženjering",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "CE-SPE Systems and Project Engineering",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Biomehanika neprekidnih sredina",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Senzori i aktuatori u medicini",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Osnove neuralnih proteza",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "CE-CAE Circuits and Electronics",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Mašinsko učenje 1",
+        "knowledge areas": [
+            "Machine Learning (ML)",
+            "Big Data Systems (BDS)",
+            "Data Mining (DM)"
+        ]
+    },
+    {
+        "course_name": "Oprema i sistemi za pomoć starim, obolelim i hendikepiranim",
+        "knowledge areas": [
+            "CE-ESY Embedded Systems",
+            "IS-Intelligent Systems",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Obrada slike u medicini",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Digital Innovation",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Neurorehabilitacioni mikroprocesorski sistemi",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "IS-Intelligent Systems",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Završni rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Završni rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-CAE Computing Algorithms",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Dizajn prostornih oblika",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "CN-Computational Science",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Osnovi informacionih tehnologija za računarsku animaciju",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "GV-Graphics and Visualization",
+            "CE-CAO Computer Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Geometrija i vizualizacija 3D prostora",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Data Acquisition, Management, and Governance (DG)",
+            "Object-Orientation"
+        ]
+    },
+    {
+        "course_name": "Osnove crtanja za animaciju i vizuelne efekte",
+        "knowledge areas": [
+            "IS Practicum",
+            "Analysis and Presentation (AP)",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Računarska obrada slika u inženjerskoj animaciji",
+        "knowledge areas": [
+            "Digital Innovation",
+            "CE-DIG Digital Design",
+            "Computing and Computer Fundamentals (CCF)"
+        ]
+    },
+    {
+        "course_name": "Crtanje za animaciju i vizuelne efekte",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Dizajn teksture i svetla",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Data Acquisition, Management, and Governance (DG)",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "Societal Security",
+            "Data Security",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Istorija digitalne animacije",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "Digital Innovation",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Osnove proceduralnog generisanja pokreta",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "ITE-SWF Software Fundamentals",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Tehnike renderovanja",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Proceduralno generisanje teksture",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Analysis and Presentation (AP)",
+            "Big Data Systems (BDS)"
+        ]
+    },
+    {
+        "course_name": "Računarska grafika",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAO Computer Architecture and Organization",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Perspektiva",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Data and Information Visualization",
+            "Object-Orientation"
+        ]
+    },
+    {
+        "course_name": "Matematika za inženjersku grafiku",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Data and Information Visualization",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Akustika i audio-tehnika u multimediji",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "GV-Graphics and Visualization",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Osnove inženjerske animacije",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Data Acquisition, Management, and Governance (DG)",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Dizajn 3D prostora i okruženja",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "IS Practicum",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Animacija karaktera",
+        "knowledge areas": [
+            "ITE-IST Integrated Systems Technology",
+            "Data Acquisition, Management, and Governance (DG)",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Digitalna obrada slike u animacijama",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Storyboard",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Simulacije u animaciji",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "IS Practicum",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Estetika vizualnih komunikacija",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization",
+            "HCI-Human-Computer Interaction"
+        ]
+    },
+    {
+        "course_name": "Inženjerska animacija i drugi mediji",
+        "knowledge areas": [
+            "ITE-IST Integrated Systems Technology",
+            "Analysis and Presentation (AP)",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Specijalni vizualni efekti",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Video u inženjerskoj animaciji",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Interaktivna inženjerska grafika",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "Analysis and Presentation (AP)",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Napredne prikazne tehnologije",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Data Acquisition, Management, and Governance (DG)",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Tehnike pisanja i prezentacije teorijskog rada",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "SP-Social Issues and Professional Practice",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Primena inženjerske animacije",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Analysis and Presentation (AP)",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Metode 3D digitalizacije",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Data Acquisition, Management, and Governance (DG)",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CN-Computational Science",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Postprodukcija u animaciji",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "OS-Operating Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Skript jezici za računarsku animaciju",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "ITE-IST Integrated Systems Technology",
+            "Application Development and Programming"
+        ]
+    },
+    {
+        "course_name": "Završni rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Završni rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Matematika",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Hemija u grafičkom inženjerstvu",
+        "knowledge areas": [
+            "Data and Information Visualization",
+            "Digital Innovation",
+            "User Interface Design"
+        ]
+    },
+    {
+        "course_name": "Grafičke aplikacije",
+        "knowledge areas": [
+            "Web Development",
+            "GV-Graphics and Visualization",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Likovna kultura",
+        "knowledge areas": [
+            "Human Security",
+            "CE-CAO Computer Architecture and Organization",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Uvod u grafičke tehnologije",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "IS Practicum",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Grafički materijali",
+        "knowledge areas": [
+            "Data and Information Visualization",
+            "Digital Innovation",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Sociologija kulture",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Digital Innovation",
+            "HCI-Human-Computer Interaction"
+        ]
+    },
+    {
+        "course_name": "Vizuelna kultura",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "GV-Graphics and Visualization",
+            "HCI-Human-Computer Interaction"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "CE-CAE Circuits and Electronics",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Industrijski dizajn",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Systems Analysis and Design",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Pismo i tipografija",
+        "knowledge areas": [
+            "IS Practicum",
+            "Data Security",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Multimediji",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "ITE-WMS Web and Mobile Systems",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Grafički procesi",
+        "knowledge areas": [
+            "Data Acquisition, Management, and Governance (DG)",
+            "Project Management",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Osnovi prostornog dizajna",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS Practicum",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Fotografija",
+        "knowledge areas": [
+            "Digital Innovation",
+            "IS Practicum",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Digitalna reprodukcija",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "Digital Innovation",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Štamparske forme",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Osnove kompjuterskih igara",
+        "knowledge areas": [
+            "Application Development and Programming",
+            "GV-Graphics and Visualization",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Tehnike štampe",
+        "knowledge areas": [
+            "Digital Innovation",
+            "SP-Social Issues and Professional Practice",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Kompjuterske igre",
+        "knowledge areas": [
+            "Application Development and Programming",
+            "Web Development",
+            "Mobile Development"
+        ]
+    },
+    {
+        "course_name": "Završna grafička obrada",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "Data Acquisition, Management, and Governance (DG)",
+            "Software Testing"
+        ]
+    },
+    {
+        "course_name": "Izborna pozicija 6",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Software Process and Life Cycle",
+            "IAS-Information Assurance and Security"
+        ]
+    },
+    {
+        "course_name": "Nauka o boji",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "User Interface Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Grafički sistemi",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "CE-CAO Computer Architecture and Organization",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "WEB dizajn",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Grafička ambalaža",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "IS Practicum",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Izborna pozicija 7",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Software Process and Life Cycle",
+            "IAS-Information Assurance and Security"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "SP-Social Issues and Professional Practice",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Grafički dizajn",
+        "knowledge areas": [
+            "IS Practicum",
+            "GV-Graphics and Visualization",
+            "User Interface Design"
+        ]
+    },
+    {
+        "course_name": "Dizajn ambalaže",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "Analysis and Presentation (AP)",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Matematika 1",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "CN-Computational Science",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Osnove programiranja",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "ITE-SWF Software Fundamentals",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Osnove računara",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "ITE-SPA System Paradigms",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Web dizajn",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik 1",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Behavioral Attributes",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Matematika 2",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Uvod u objektno programiranje",
+        "knowledge areas": [
+            "Object-Orientation",
+            "CE-SWD Software Design",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Algoritmi i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Sistemski softver",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "Computing and Computer Fundamentals (CCF)",
+            "ITE-PFT Platform Technologies"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik 2",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Behavioral Attributes",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Platforme za objektno programiranje",
+        "knowledge areas": [
+            "Application Development and Programming",
+            "Web Development",
+            "Software Construction"
+        ]
+    },
+    {
+        "course_name": "Internet mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Osnove baza podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "IM-Information Management",
+            "Data and Information Management"
+        ]
+    },
+    {
+        "course_name": "Osnove web programiranja",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "CE-NWK Computer Networks"
+        ]
+    },
+    {
+        "course_name": "Specifikacija softverskih sistema",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "SE-Software Engineering",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Serverske veb tehnologije",
+        "knowledge areas": [
+            "ITE-WMS Web and Mobile Systems",
+            "Software Construction",
+            "Web Development"
+        ]
+    },
+    {
+        "course_name": "Klijentske veb tehnologije",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "PBD-Platform-based Development"
+        ]
+    },
+    {
+        "course_name": "Alati za razvoj softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "CE-SWD Software Design",
+            "Software Measurement"
+        ]
+    },
+    {
+        "course_name": "Testiranje softvera",
+        "knowledge areas": [
+            "Software Testing",
+            "Software Development and Maintenance (SDM)",
+            "Software Quality"
+        ]
+    },
+    {
+        "course_name": "Mobilne aplikacije",
+        "knowledge areas": [
+            "Mobile Development",
+            "ITE-WMS Web and Mobile Systems",
+            "PBD-Platform-based Development"
+        ]
+    },
+    {
+        "course_name": "Servisno orijentisane arhitekture",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Object-Orientation",
+            "Software Design"
+        ]
+    },
+    {
+        "course_name": "Metodologije razvoja softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "CE-SWD Software Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "Project Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Tehnologije i platforme za upravljanje elektronskim sadržajima i dokumentima",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Data and Information Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Završni rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Završni rad - izrada i odbrana",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "IS Practicum",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Uvod u inženjerstvo informacionih sistema",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "Software Systems Engineering",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Osnove sistemskog inženjerstva",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Uvod u mikroprocesorske sisteme",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "CE-CAO Computer Architecture and Organization",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Uvod u programiranje",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "Application Development and Programming"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisane informacione tehnologije",
+        "knowledge areas": [
+            "Object-Orientation",
+            "Systems Analysis and Design",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Osnove inženjerstva tehničkih sistema",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "SP-Social Issues and Professional Practice",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Društveni aspekti informacionih sistema",
+        "knowledge areas": [
+            "IS Ethics, Sustainability, Use and Implications for Society",
+            "Societal Security",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Osnove organizacionih sistema",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "SP-Social Issues and Professional Practice",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Kombinatorika i teorija grafova",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Osnovi ekonomije za inženjere",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Project Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Arhitektura računara i operativni sistemi",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Algoritmi i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-CAE Computing Algorithms",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Poslovni informacioni sistemi",
+        "knowledge areas": [
+            "Digital Innovation",
+            "OS-Operating Systems",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Osnove organizacionog ponašanja",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "Systems Analysis and Design",
+            "ITE-GPP Global Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Verovatnoća i statistika",
+        "knowledge areas": [
+            "Data and Information Visualization",
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Projektovanje informacionih sistema",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Systems Analysis and Design",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Veb orijentisane tehnologije i sistemi",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Analiza i modeliranje poslovnih procesa",
+        "knowledge areas": [
+            "Data Acquisition, Management, and Governance (DG)",
+            "Project Management",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Osnove testiranja softvera",
+        "knowledge areas": [
+            "Software Testing",
+            "Software Quality",
+            "Software Development and Maintenance (SDM)"
+        ]
+    },
+    {
+        "course_name": "Arhitektura informacionih sistema i računarske mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Metode i tehnike upravljanja projektima",
+        "knowledge areas": [
+            "Project Management",
+            "Project Management",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Projektovanje baza podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "IM-Information Management"
+        ]
+    },
+    {
+        "course_name": "Računarom podržano projektovanje proizvoda (CAD/CAE)",
+        "knowledge areas": [
+            "IS Practicum",
+            "Project Management",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Mobilne informacione tehnologije",
+        "knowledge areas": [
+            "Mobile Development",
+            "PBD-Platform-based Development",
+            "ITE-WMS Web and Mobile Systems"
+        ]
+    },
+    {
+        "course_name": "Dizajnerski obrasci",
+        "knowledge areas": [
+            "Object-Orientation",
+            "Systems Analysis and Design",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Sistem menadžmenta kvalitetom",
+        "knowledge areas": [
+            "Software Quality",
+            "Project Management",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Osnove sistema poslovne inteligencije",
+        "knowledge areas": [
+            "Data Mining (DM)",
+            "IS-Intelligent Systems",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Sistemi za podršku planiranju poslovnih resursa",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "OS-Operating Systems",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Sistemi baza podataka",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Razvoj višeslojnih aplikacija",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Application Development and Programming",
+            "ITE-SWF Software Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Inovacije i preduzetništvo u visokotehnološkim preduzećima",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Emerging Technologies",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Bezbednost i sigurnost informacionih sistema",
+        "knowledge areas": [
+            "Data Security",
+            "CE-SEC Information Security",
+            "IAS-Information Assurance and Security"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa - OAS Inž.inf.sist.",
+        "knowledge areas": [
+            "IS Practicum",
+            "OS-Operating Systems",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Servisno orijentisane arhitekture sistema",
+        "knowledge areas": [
+            "ITE-SPA System Paradigms",
+            "Object-Orientation",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "SP-Social Issues and Professional Practice",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "SP-Social Issues and Professional Practice",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Metode optimizacije",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Osnovi računarskih mreža",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Algoritmi digitalne obrade zvuka",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Bežične mreže - Internet of Things",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Mobile Development"
+        ]
+    },
+    {
+        "course_name": "Algoritmi digitalne obrade slike",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "AR-Architecture and Organization",
+            "Computing and Computer Fundamentals (CCF)"
+        ]
+    },
+    {
+        "course_name": "Projektovanje i arhitektura računarskih sistema - Sistemi zasnovani na Androidu",
+        "knowledge areas": [
+            "Mobile Development",
+            "PBD-Platform-based Development",
+            "ITE-WMS Web and Mobile Systems"
+        ]
+    },
+    {
+        "course_name": "Međuračunarske komunikacije i računarske mreže 1",
+        "knowledge areas": [
+            "ITE-NET Networking",
+            "CE-NWK Computer Networks",
+            "NC-Networking and Communication"
+        ]
+    },
+    {
+        "course_name": "Napredno C programiranje u realnom vremenu",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "AR-Architecture and Organization",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Softver u pametnim uređajima",
+        "knowledge areas": [
+            "Software Systems Engineering",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa - projekat",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Verifikacija digitalnih sistema",
+        "knowledge areas": [
+            "IAS-Information Assurance and Security",
+            "Systems Analysis and Design",
+            "Software Development and Maintenance (SDM)"
+        ]
+    },
+    {
+        "course_name": "Arhitekture i algoritmi DSP-a",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Computing and Computer Fundamentals (CCF)",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Završni rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Završni rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Hardverski interfejsi",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Mikroprocesorski upravljački uređaji",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Osnove biomedicinskog inženjerstva",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Digital Innovation",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Automatika u pametnim stambeno-poslovnim objektima",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "CE-ESY Embedded Systems",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Digitalni upravljački sistemi",
+        "knowledge areas": [
+            "Digital Innovation",
+            "OS-Operating Systems",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Upravljanje procesima računarom",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Projektovanje softvera u sistemima upravljanja",
+        "knowledge areas": [
+            "SE-Software Engineering",
+            "Systems Analysis and Design",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Numerički algoritmi i numerički softver",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Programski prevodioci",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "Application Development and Programming",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Interakcija čovek računar",
+        "knowledge areas": [
+            "GV-Graphics and Visualization",
+            "HCI-Human-Computer Interaction",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Internet mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "NC-Networking and Communication"
+        ]
+    },
+    {
+        "course_name": "Specifikacija i modeliranje softvera",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "SE-Software Engineering",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Računarska grafika",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAO Computer Architecture and Organization",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Baze podataka 2",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Projektovanje softvera",
+        "knowledge areas": [
+            "Software Quality",
+            "CE-SPE Systems and Project Engineering",
+            "Software Design"
+        ]
+    },
+    {
+        "course_name": "Soft kompjuting",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CN-Computational Science",
+            "Big Data Systems (BDS)"
+        ]
+    },
+    {
+        "course_name": "Internet softverske arhitekture",
+        "knowledge areas": [
+            "Software Construction",
+            "CE-SPE Systems and Project Engineering",
+            "Software Design"
+        ]
+    },
+    {
+        "course_name": "Servisno orijentisane arhitekture",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Software Construction",
+            "Software Design"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 1",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Programski jezici i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "SDF-Software Development Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Arhitektura računara",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "Data Security",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Modeliranje i simulacija sistema",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "OS-Operating Systems",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Logičko projektovanje računarskih sistema 1",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisano programiranje",
+        "knowledge areas": [
+            "Object-Orientation",
+            "CE-SWD Software Design",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 2",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Operativni sistemi",
+        "knowledge areas": [
+            "CE-SRM System Resource Management",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Sistemi automatskog upravljanja",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Verovatnoća i slučajni procesi",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Osnovi paralelnog programiranja i softverski alati",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "AR-Architecture and Organization",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Baze podataka 2",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Internet softverske arhitekture",
+        "knowledge areas": [
+            "Software Construction",
+            "CE-SPE Systems and Project Engineering",
+            "Software Design"
+        ]
+    },
+    {
+        "course_name": "Operaciona istraživanja",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "AL-Algorithms and Complexity",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "Project Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Rizik u investicionom menadžmentu",
+        "knowledge areas": [
+            "Organizational Security",
+            "CE-SEC Information Security",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Osnovi programiranja i programskih jezika",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Uvod u informacioni i finansijski inženjering",
+        "knowledge areas": [
+            "Data and Information Management",
+            "ITE-IMA Information Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Komunikologija",
+        "knowledge areas": [
+            "ITE-GPP Global Professional Practice",
+            "Connection Security",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Mehanika",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-CAE Computing Algorithms",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 1",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Arhitektura računara",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Teorija algoritama",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Osnove finansijskog inženjeringa 1",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Project Management",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 2",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Systems Analysis and Design",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Osnove teorije grafova i kombinatorike",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Napredno programiranje i programski jezici",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "Object-Orientation",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Logičko projektovanje računarskih sistema 1",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik za informacioni inženjering",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "Data Acquisition, Management, and Governance (DG)",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Verovatnoća i slučajni procesi",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Matematička logika",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "IS-Intelligent Systems",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Operativni sistemi",
+        "knowledge areas": [
+            "CE-SRM System Resource Management",
+            "CE-SPE Systems and Project Engineering",
+            "ITE-SPA System Paradigms"
+        ]
+    },
+    {
+        "course_name": "Veb programiranje",
+        "knowledge areas": [
+            "Web Development",
+            "ITE-WMS Web and Mobile Systems",
+            "Mobile Development"
+        ]
+    },
+    {
+        "course_name": "Osnove finansijskog inženjeringa 2",
+        "knowledge areas": [
+            "IS Management and Strategy",
+            "Project Management",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Optimizacioni algoritmi i nelinearno programiranje",
+        "knowledge areas": [
+            "CE-CAE Computing Algorithms",
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Numerički algoritmi i numerički softver",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Obrada vremenskih nizova podataka",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Data and Business Analytics",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Baze podataka 1",
+        "knowledge areas": [
+            "ITE-IMA Information Management",
+            "Data and Information Management",
+            "IM-Information Management"
+        ]
+    },
+    {
+        "course_name": "Programski prevodioci",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "Application Development and Programming",
+            "ITE-SWF Software Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Praktikum iz statistike",
+        "knowledge areas": [
+            "Data and Information Visualization",
+            "Analysis and Presentation (AP)",
+            "Data Mining (DM)"
+        ]
+    },
+    {
+        "course_name": "Paralelno računarstvo",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "PD-Parallel and Distributed Computing",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 2",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Systems Analysis and Design",
+            "Data and Information Visualization"
+        ]
+    },
+    {
+        "course_name": "Upravljanje, modelovanje i simulacija sistema",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "OS-Operating Systems",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Elektroenergetski sistemi",
+        "knowledge areas": [
+            "Software Systems Engineering",
+            "CE-SPE Systems and Project Engineering",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - srednji",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Osnovi upravljanja u elektroenergetici",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Električna merenja",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Machine Learning (ML)",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Elektroenergetski pretvarači",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-CAE Computing Algorithms",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - napredni srednji",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS-Intelligent Systems",
+            "ITE-IST Integrated Systems Technology"
+        ]
+    },
+    {
+        "course_name": "Elektromagnetika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "DS-Discrete Structures",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Analiza elektroenergetskih sistema 1",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering"
+        ]
+    },
+    {
+        "course_name": "Električne mašine 1",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-CAE Computing Algorithms",
+            "Machine Learning (ML)"
+        ]
+    },
+    {
+        "course_name": "Energetska elektronika 1",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik za inženjere 1",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS-Intelligent Systems",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Analiza elektroenergetskih sistema 2",
+        "knowledge areas": [
+            "Software Systems Engineering",
+            "CE-SPE Systems and Project Engineering",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Električne mašine 2",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "SF-Systems Fundamentals",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Energetska elektronika 2",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Elektrodistributivni sistemi",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik za inženjere 2",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Razvodna postrojenja",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Primena računarskih alata u elektroenergetici",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "IS-Intelligent Systems",
+            "Project Management"
+        ]
+    },
+    {
+        "course_name": "Analiza i upravljanje distributivnih mreža",
+        "knowledge areas": [
+            "Systems Analysis and Design",
+            "Project Management",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Relejna zaštita",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Software Security",
+            "System Security"
+        ]
+    },
+    {
+        "course_name": "Eksploatacija elektroenergetskih sistema",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "Systems Analysis and Design"
+        ]
+    },
+    {
+        "course_name": "Analiza elektroenergetskih sistema 3",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "DS-Discrete Structures",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Diplomski rad - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Električne mašine 3",
+        "knowledge areas": [
+            "SF-Systems Fundamentals",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Primena mikroprocesora u elektroenergetici",
+        "knowledge areas": [
+            "CE-ESY Embedded Systems",
+            "Computing and Computer Fundamentals (CCF)",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Energetska elektronika u pogonu i industriji",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "IS-Intelligent Systems",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Upravljanje energetskim pretvaračima",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-SPE Systems and Project Engineering",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Elektromotorni pogoni",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Component Security",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Uvod u elektroniku",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-DIG Digital Design",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Matematika 3",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Systems Analysis and Design",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Laboratorijski praktikum",
+        "knowledge areas": [
+            "OS-Operating Systems",
+            "CE-CAE Circuits and Electronics",
+            "System Security"
+        ]
+    },
+    {
+        "course_name": "Merni instrumenti",
+        "knowledge areas": [
+            "CE-CAO Computer Architecture and Organization",
+            "ITE-SPA System Paradigms",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Objektno orijentisano programiranje",
+        "knowledge areas": [
+            "Object-Orientation",
+            "CE-SWD Software Design",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Matematika 4",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "AL-Algorithms and Complexity",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Metrologija i mikroračunarska instrumentacija",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "IS Practicum",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Verovatnoća, statistika i slučajni procesi",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "AL-Algorithms and Complexity",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Signali i sistemi",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-DIG Digital Design",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Razvojni alati u telekomunikacijama i obradi signala 1",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "SDF-Software Development Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Osnovi digitalnih komunikacija",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Uvod u komunikacione mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Digitalna obrada signala",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-DIG Digital Design",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Uvod u digitalnu i mikroračunarsku elektroniku",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "AR-Architecture and Organization",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Digitalne modulacije",
+        "knowledge areas": [
+            "Digital Innovation",
+            "CE-DIG Digital Design",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Uvod u teoriju informacija",
+        "knowledge areas": [
+            "Data Security",
+            "CE-CAE Computing Algorithms",
+            "Data Privacy, Security, Integrity, and Analysis for Security (DP)"
+        ]
+    },
+    {
+        "course_name": "IP tehnologije",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "NC-Networking and Communication"
+        ]
+    },
+    {
+        "course_name": "Digitalni filtri",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-SGP Signal Processing",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Optimizacija u komunikacijama i obradi signala",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Digitalna obrada slike",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "Digital Innovation",
+            "Data Acquisition, Management, and Governance (DG)"
+        ]
+    },
+    {
+        "course_name": "Logičko projektovanje računarskih sistema",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "AR-Architecture and Organization",
+            "Computing and Computer Fundamentals (CCF)"
+        ]
+    },
+    {
+        "course_name": "Modelovanje i simulacija komunikacionih sistema",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-SGP Signal Processing",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Mašinsko učenje 1",
+        "knowledge areas": [
+            "Machine Learning (ML)",
+            "Big Data Systems (BDS)",
+            "Data Mining (DM)"
+        ]
+    },
+    {
+        "course_name": "Razvojni alati u telekomunikacijama i obradi signala 2",
+        "knowledge areas": [
+            "Software Construction",
+            "Application Development and Programming",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Preduzetništvo u informaciono-komunikacionim tehnologijama",
+        "knowledge areas": [
+            "Digital Innovation",
+            "Analysis and Presentation (AP)",
+            "ITE-IMA Information Management"
+        ]
+    },
+    {
+        "course_name": "Teorija električnih kola",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CN-Computational Science",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Digitalna elektronika",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Električne mašine i pogoni",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-CAE Computing Algorithms",
+            "CE-CAO Computer Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Osnovi mikroprocesorskih i mikrokontrolerskih sistema",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "CE-ESY Embedded Systems",
+            "CE-CAO Computer Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Osnovi telekomunikacija",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-SGP Signal Processing",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Merenja u elektronici",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Machine Learning (ML)",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Sistemi i signali",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-DIG Digital Design",
+            "CE-CAE Computing Algorithms"
+        ]
+    },
+    {
+        "course_name": "Praktikum: inženjerski alati u elektronici",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CN-Computational Science",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Jezici za modelovanje hardvera",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "AR-Architecture and Organization",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Analogna mikroelektronska kola",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Laboratorijske vežbe iz elektronike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Praktična elektronika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "IS Practicum",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Poslovno komuniciranje",
+        "knowledge areas": [
+            "ITE-GPP Global Professional Practice",
+            "Analysis and Presentation (AP)",
+            "Behavioral Attributes"
+        ]
+    },
+    {
+        "course_name": "Mikro i nano elektronika",
+        "knowledge areas": [
+            "CE-ESY Embedded Systems",
+            "AR-Architecture and Organization",
+            "SF-Systems Fundamentals"
+        ]
+    },
+    {
+        "course_name": "Impulsna i digitalna elektronska kola",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Diskretni sistemi",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "CE-DIG Digital Design",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Algebra",
+        "knowledge areas": [
+            "DS-Discrete Structures",
+            "AL-Algorithms and Complexity",
+            "Data Mining (DM)"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike 1",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Mehanika",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "CE-CAE Computing Algorithms",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Softverski praktikum",
+        "knowledge areas": [
+            "SP-Social Issues and Professional Practice",
+            "ITE-IST Integrated Systems Technology",
+            "Analysis and Presentation (AP)"
+        ]
+    },
+    {
+        "course_name": "Sociologija tehnike",
+        "knowledge areas": [
+            "Emerging Technologies",
+            "Digital Innovation",
+            "ITE-GPP Global Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - osnovni",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "CE-SWD Software Design",
+            "Behavioral Attributes"
+        ]
+    },
+    {
+        "course_name": "Matematička analiza 1",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "DS-Discrete Structures"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike 2",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "CE-SGP Signal Processing"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CN-Computational Science",
+            "Data Security"
+        ]
+    },
+    {
+        "course_name": "Programski jezici i strukture podataka",
+        "knowledge areas": [
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "CE-SWD Software Design",
+            "Application Development and Programming"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - niži srednji",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "DS-Discrete Structures",
+            "Software Construction"
+        ]
+    },
+    {
+        "course_name": "Primena mikroprocesora u energetici",
+        "knowledge areas": [
+            "CE-ESY Embedded Systems",
+            "Computing and Computer Fundamentals (CCF)",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Energetska elektronika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Connection Security",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Napajanje industrijskih pogona",
+        "knowledge areas": [
+            "Project Management",
+            "Connection Security",
+            "CE-SPE Systems and Project Engineering"
+        ]
+    },
+    {
+        "course_name": "Laboratorija iz električnih mašina",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Machine Learning (ML)",
+            "Software Testing"
+        ]
+    },
+    {
+        "course_name": "Elektroenergetski sistemi",
+        "knowledge areas": [
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering",
+            "CE-CAE Circuits and Electronics"
+        ]
+    },
+    {
+        "course_name": "Industrijski protokoli i mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "CE-ESY Embedded Systems",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Elektromotorni pogoni",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Component Security",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Instalacije stambenih objekata",
+        "knowledge areas": [
+            "Project Management",
+            "CE-CAE Circuits and Electronics",
+            "IS Practicum"
+        ]
+    },
+    {
+        "course_name": "Laboratorija iz industrijskih pogona",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-ESY Embedded Systems",
+            "IS-Intelligent Systems"
+        ]
+    },
+    {
+        "course_name": "Vetroelektrane",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Emerging Technologies",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Energetska elektronika u distributivnim mrežama",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-SGP Signal Processing",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Stručna praksa",
+        "knowledge areas": [
+            "IS Practicum",
+            "DS-Discrete Structures",
+            "OS-Operating Systems"
+        ]
+    },
+    {
+        "course_name": "Priprema i konekcija obnovljivih izvora na mrežu",
+        "knowledge areas": [
+            "Connection Security",
+            "Software Systems Engineering",
+            "SP-Social Issues and Professional Practice"
+        ]
+    },
+    {
+        "course_name": "Završni rad  - istraživački rad",
+        "knowledge areas": [
+            "AL-Algorithms and Complexity",
+            "OS-Operating Systems",
+            "CN-Computational Science"
+        ]
+    },
+    {
+        "course_name": "Završni rad  - izrada i odbrana",
+        "knowledge areas": [
+            "IS Practicum",
+            "CN-Computational Science",
+            "Digital Innovation"
+        ]
+    },
+    {
+        "course_name": "Komunikacione mreže",
+        "knowledge areas": [
+            "CE-NWK Computer Networks",
+            "ITE-NET Networking",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Razvojni alati u elektronici i telekomunikacijama 1",
+        "knowledge areas": [
+            "CE-SWD Software Design",
+            "Programming, Data Structures, and Algorithms (PDA)",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Digitalna elektronika",
+        "knowledge areas": [
+            "CE-DIG Digital Design",
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Mikroračunarska elektronika",
+        "knowledge areas": [
+            "AR-Architecture and Organization",
+            "CE-ESY Embedded Systems",
+            "CE-CAO Computer Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - srednji",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "AL-Algorithms and Complexity",
+            "PL-Programming Languages"
+        ]
+    },
+    {
+        "course_name": "Razvojni alati u elektronici i telekomunikacijama 2",
+        "knowledge areas": [
+            "ITE-IST Integrated Systems Technology",
+            "OS-Operating Systems",
+            "Application Development and Programming"
+        ]
+    },
+    {
+        "course_name": "Akustika i audio-tehnika",
+        "knowledge areas": [
+            "CE-SGP Signal Processing",
+            "OS-Operating Systems",
+            "AL-Algorithms and Complexity"
+        ]
+    },
+    {
+        "course_name": "Industrijska elektronika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-DIG Digital Design",
+            "CE-ESY Embedded Systems"
+        ]
+    },
+    {
+        "course_name": "Samostalni praktični projekat",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "IS Practicum",
+            "GV-Graphics and Visualization"
+        ]
+    },
+    {
+        "course_name": "Matematika",
+        "knowledge areas": [
+            "CN-Computational Science",
+            "DS-Discrete Structures",
+            "Programming, Data Structures, and Algorithms (PDA)"
+        ]
+    },
+    {
+        "course_name": "Fizika",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CN-Computational Science",
+            "Data Security"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektrotehnike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "AR-Architecture and Organization",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Osnovi mašinstva (maš. elem. i mater.)",
+        "knowledge areas": [
+            "Analysis and Presentation (AP)",
+            "CE-SPE Systems and Project Engineering",
+            "Software Systems Engineering"
+        ]
+    },
+    {
+        "course_name": "Engleski jezik - osnovni",
+        "knowledge areas": [
+            "IS-Intelligent Systems",
+            "Behavioral Attributes",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Osnovi energetike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-SPE Systems and Project Engineering",
+            "CE-CAO Computer Architecture and Organization"
+        ]
+    },
+    {
+        "course_name": "Osnovi elektronike",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "CE-DIG Digital Design",
+            "Connection Security"
+        ]
+    },
+    {
+        "course_name": "Osnovi telekomunikacija",
+        "knowledge areas": [
+            "ITE-NET Networking",
+            "ITE-IST Integrated Systems Technology",
+            "CE-DIG Digital Design"
+        ]
+    },
+    {
+        "course_name": "Razvojni alati u elektrotehnici",
+        "knowledge areas": [
+            "Web Development",
+            "Application Development and Programming",
+            "CE-SWD Software Design"
+        ]
+    },
+    {
+        "course_name": "Laboratorija iz električnih merenja",
+        "knowledge areas": [
+            "CE-CAE Circuits and Electronics",
+            "Software Measurement",
+            "CE-SGP Signal Processing"
+        ]
+    }
+]
