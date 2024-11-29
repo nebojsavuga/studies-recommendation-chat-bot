@@ -1,33 +1,173 @@
-# Preporuka smera na Fakultetu tehnickih nauka 
+# Preporuka smera na Fakultetu tehnickih nauka
 
 ## Članovi
 
-Bogdan Janošević R2 43/2024
-Kristina Popov Е2 93/2024
-Nebojša Vuga R2 23/2024
+- Bogdan Janošević R2 43/2024
+- Kristina Popov Е2 93/2024
+- Nebojša Vuga R2 23/2024
 
-## Kurikulumi programerskih smerova
+## Ontologija za predmete
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/SIiIT_24.pdf
+- hasKnowledgeArea[]
+- hasGoal
+- hasContent
+- requiresPrerequisite
+- hasLevel
+- hasLearningOutcome
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/PSI_24.pdf
+## Оntologija za smer
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/mehatronika_24.pdf
+- hasTypeOfStudies
+- HasTitle
+- HasDuration
+- hasCourses[]
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/racunarstvo_24.pdf
+## Ontologija za knowlegde area
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/inform-inzenje_24.pdf
+hasDisciplines[]
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/EET_24.pdf
+Values:{
+AL - Algorithms and Complexity
+● AR - Architecture and Organization
+● CN - Computational Science
+● DS - Discrete Structures
+● GV - Graphics and Visualization
+● HCI - Human-Computer Interaction
+● IAS - Information Assurance and Security
+● IM - Information Management
+● IS - Intelligent Systems
+● NC - Networking and Communications
+● OS - Operating Systems
+● PBD - Platform-based Development
+● PD - Parallel and Distributed Computing
+● PL - Programming Languages
+● SDF - Software Development Fundamentals
+● SE - Software Engineering
+● SF - Systems Fundamentals
+● SP - Social Issues and Professional Practice
+}
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/biomedicina_24.pdf
+- HasDiscipline
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/animacija_24.pdf
+## Ontologija za disciplinu
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/GRID_24.pdf
+Values:{
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/Elektrotehnikao.pdf
+Computer engineering (CE) : Areas{
+Circuits and Electronics
+Computing Algorithms
+Computer Architecture and Organization
+Digital Design
+Embedded Systems
+Computer Networks
+Preparation for Professional Practice
+Information Security
+Signal Processing
+Systems and Project Engineering
+System Resource Management
+Software Design
+}
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/09/SIiT_24.pdf
 
-https://ftn.uns.ac.rs/wp-content/uploads/2024/10/IIS_24-1-OAS.pdf
+Computer science (CS) : Areas{
+AL-Algorithms and Complexity
+AR-Architecture and Organization,
+CN-Computational Science,
+DS-Discrete Structures,
+GV-Graphics and Visualization,
+HCI-Human-Computer Interaction,
+IAS-Information Assurance and Security ,
+IM-Information Management,
+IS-Intelligent Systems,
+NC-Networking and Communication ,
+OS-Operating Systems,
+PBD-Platform-based Development,
+PD-Parallel and Distributed Computing,
+PL-Programming Languages,
+SDF-Software Development Fundamentals,
+SE-Software Engineering,
+SF-Systems Fundamentals,
+SP-Social Issues and Professional Practice
+}
+
+
+Cybersecurity (CSEC) : Areas {
+Data Security,
+Software Security,
+Component Security,
+Connection Security
+System Security,
+Human Security,
+Organizational Security,
+Societal Security,
+}
+
+
+Information systems (IS) : Areas{
+Programming Fundamentals
+Algorithms and Complexity
+Architecture and Organization
+Operating Systems
+Net Centric Computing
+Programming Languages
+Graphics and Visual Computing
+Intelligent Systems
+IS Management and Leadership
+Data and Information Management
+Systems Analysis and Design
+IS Project Management
+Enterprise Architecture
+User Experience
+Professional Issues in Information Systems
+Leadership and Communication
+Individual and Organizational Knowledge Work Capabilities
+General models of the domain
+Key specializations within the domain
+Evaluation of performance within the domain
+}
+
+
+Information technology (IT) : Areas {
+ITE-CSP Cybersecurity Principles,
+ITE-GPP Global Professional Practice ,
+ITE-IMA Information Management ,
+ITE-IST Integrated Systems Technology,
+ITE-NET Networking ,
+ITE-PFT Platform Technologies ,
+ITE-SWF Software Fundamentals ,
+ITE-UXD User Experience Design,
+ITE-WMS Web and Mobile Systems
+}
+
+
+Software engineering (SE) : Areas{
+Software Requirements,
+Software Design,
+Software Construction,
+Software Testing,
+Software Sustainment,
+Software Process and Life Cycle,
+Software Systems Engineering,
+Software Quality,
+Software Security,
+Software Safety,
+Software Measurement,
+Project Management,
+Behavioral Attributes
+}
+
+
+Data science (DS) : Areas{
+Analysis and Presentation (AP),
+Artificial Intelligence (AI),
+Big Data Systems (BDS),
+Computing and Computer Fundamentals (CCF),
+Data Acquisition, Management, and Governance (DG),
+Data Mining (DM),
+Data Privacy, Security, Integrity, and Analysis for Security (DP),
+Machine Learning (ML),
+Professionalism (PR),
+Programming, Data Structures, and Algorithms (PDA),
+Software Development and Maintenance (SDM)
+}
+}
