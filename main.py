@@ -94,19 +94,15 @@ for i, course in enumerate(courses):
     query_embedding = np.array(course_embeddings[i], dtype=np.float32).reshape(1, -1)
     distances, indices = faiss_index.search(query_embedding, k=3)  # Top 3 KA
     top_matches = [
-        {
-            "knowledge_area": ka_metadata[idx]["name"],
-            "description": ka_metadata[idx]["description"],
-            "distance": float(distances[0][j]),
-        }
-        for j, idx in enumerate(indices[0])
+        ka_metadata[idx]["name"]
+        for _, idx in enumerate(indices[0])
     ]
     mapped_courses.append(
-        {"course_name": course["name"], "mapped_knowledge_areas": top_matches}
+        {"course_name": course["name"], "knowledge areas": top_matches}
     )
 print("Course mapping completed.")
 
-output_path = "test2.json"
+output_path = "v1.json"
 print(f"Saving results to {output_path}...")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(mapped_courses, f, ensure_ascii=False, indent=4)
