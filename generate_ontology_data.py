@@ -91,13 +91,16 @@ print(f"Extracted {len(knowledge_areas)} knowledge areas.")
 
 print("Generating embeddings for courses...")
 
-course_embeddings = generate_embeddings([course["description"] for course in courses])
-save_embeddings(course_embeddings, 'course_embeddings.json')
+#course_embeddings = generate_embeddings([course["description"] for course in courses])
+course_embeddings = load_embeddings('course_embeddings.json')
+#save_embeddings(course_embeddings, 'course_embeddings.json')
 print("Course embeddings generated successfully.")
 print("Generating embeddings for knowledge areas...")
 
-ka_embeddings = generate_embeddings([ka["description"] for ka in knowledge_areas])
-save_embeddings(ka_embeddings, 'ka_embeddings.json')
+#ka_embeddings = generate_embeddings([ka["description"] for ka in knowledge_areas])
+#save_embeddings(ka_embeddings, 'ka_embeddings.json')
+ka_embeddings = load_embeddings('ka_embeddings.json')
+
 print("Knowledge area embeddings generated successfully.")
 
 print("Creating FAISS index...")
