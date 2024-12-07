@@ -71,17 +71,17 @@
       "answer_value": "program"
     },
     {
-      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?projectCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projekat\") ||\n    CONTAINS(LCASE(?content), \"пројекат\")\n  )\n}\nGROUP BY ?program\nHAVING (COUNT(?course) > 5)\nORDER BY DESC(?projectCount)",
+      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?projectCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projek\") ||\n    CONTAINS(LCASE(?content), \"пројек\")\n  )\n}\nGROUP BY ?program\nORDER BY DESC(?projectCount)\nLIMIT 5",
       "question": "Koji su smerovi koji imaju puno projekata?",
       "answer_value": "program"
     },
     {
-      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?relevantCourseCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projekat\") ||\n    CONTAINS(LCASE(?content), \"пројекат\") ||\n    CONTAINS(LCASE(?content), \"tim\") ||\n    CONTAINS(LCASE(?content), \"тим\") ||\n    CONTAINS(LCASE(?content), \"timski\") ||\n    CONTAINS(LCASE(?content), \"тимски\")\n  )\n}\nGROUP BY ?program\nHAVING (COUNT(?course) > 5)\nORDER BY DESC(?relevantCourseCount)",
+      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?relevantCourseCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projek\") ||\n    CONTAINS(LCASE(?content), \"пројекат\") ||\n    CONTAINS(LCASE(?content), \"tim\") ||\n    CONTAINS(LCASE(?content), \"тим\") ||\n    CONTAINS(LCASE(?content), \"timski\") ||\n    CONTAINS(LCASE(?content), \"тимски\")\n  )\n}\nGROUP BY ?program\nHAVING (COUNT(?course) > 5)\nORDER BY DESC(?relevantCourseCount)",
       "question": "Koji smerovi uključuju aktivan timski rad sa drugim studentima?",
       "answer_value": "program"
     },
     {
-      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?relevantCourseCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projekat\") ||\n    CONTAINS(LCASE(?content), \"пројекат\") ||\n    CONTAINS(LCASE(?content), \"tim\") ||\n    CONTAINS(LCASE(?content), \"тим\") ||\n    CONTAINS(LCASE(?content), \"timski\") ||\n    CONTAINS(LCASE(?content), \"тимски\")\n  )\n}\nGROUP BY ?program\nHAVING (COUNT(?course) > 5)\nORDER BY DESC(?relevantCourseCount)",
+      "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(?course) AS ?relevantCourseCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"projek\") ||\n    CONTAINS(LCASE(?content), \"пројекат\") ||\n    CONTAINS(LCASE(?content), \"tim\") ||\n    CONTAINS(LCASE(?content), \"тим\") ||\n    CONTAINS(LCASE(?content), \"timski\") ||\n    CONTAINS(LCASE(?content), \"тимски\")\n  )\n}\nGROUP BY ?program\nHAVING (COUNT(?course) > 5)\nORDER BY DESC(?relevantCourseCount)",
       "question": "Koji smerovi imaju timske projekte?",
       "answer_value": "program"
     },
