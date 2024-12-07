@@ -11,6 +11,16 @@
       "answer_value": "program"
     },
     {
+      "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?program \nWHERE { \n ?program ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"4\")) \n}",
+      "question": "Smerovi koji traju duŽe od 3 godine",
+      "answer_value": "program"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?program \nWHERE { \n ?program ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"3\")) \n}",
+      "question": "Smerovi koji traju kraće od 4 godine",
+      "answer_value": "program"
+    },
+    {
       "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"комплексно\") ||\n    CONTAINS(LCASE(?content), \"напредн\")\n  )}\nGROUP BY ?program\nORDER BY DESC(?courseCount)\nLimit 5",
       "question": "Koji smerovi sadrže teže i napredne koncepte programiranja?",
       "answer_value": "program"
