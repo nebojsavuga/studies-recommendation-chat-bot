@@ -1,5 +1,5 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
-from generate_sparql_queries_embedings import find_best_query
+from sparql_query_helpers import find_best_query
 
 virtuoso_url = "http://localhost:8890/sparql"
 sparql = SPARQLWrapper(virtuoso_url)

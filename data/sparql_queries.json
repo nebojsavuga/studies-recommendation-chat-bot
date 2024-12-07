@@ -1,8 +1,13 @@
 {
   "queries": [
     {
-      "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?smer \nWHERE { \n ?smer ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"4\")) \n}",
+      "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?program \nWHERE { \n ?program ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"4\")) \n}",
       "question": "Smerovi koji traju 4 godine",
+      "answer_value": "program"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?program \nWHERE { \n ?program ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"3\")) \n}",
+      "question": "Smerovi koji traju 3 godine",
       "answer_value": "program"
     },
     {
@@ -16,12 +21,12 @@
       "answer_value": "program"
     },
     {
-      "query": "PREFIX ns2: <http://example.org/program/>\n\nSELECT ?duration\nWHERE {\n  ?smer ns2:has_duration ?duration.\n  FILTER(CONTAINS(STR(?smer), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
+      "query": "PREFIX ns2: <http://example.org/program/>\n\nSELECT ?duration\nWHERE {\n  ?program ns2:has_duration ?duration.\n  FILTER(CONTAINS(STR(?program), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
       "question": "Koliko godina traje smer SIIT?",
       "answer_value": "duration"
     },
     {
-      "query": "PREFIX ns2: <http://example.org/program/>\n\nASK {\n  ?smer ?p ?o.\n  FILTER(CONTAINS(STR(?smer), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
+      "query": "PREFIX ns2: <http://example.org/program/>\n\nASK {\n  ?program ?p ?o.\n  FILTER(CONTAINS(STR(?program), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
       "question": "Da li postoji smer _____?",
       "answer_value": "program"
     },
@@ -88,11 +93,6 @@
     {
       "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?program (COUNT(?mathCourse) AS ?mathCourseCount)\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  FILTER(\n    CONTAINS(LCASE(?content), \"algebra\") ||\n    CONTAINS(LCASE(?content), \"matematika\") ||\n    CONTAINS(LCASE(?content), \"analiza\") ||\n    CONTAINS(LCASE(?content), \"већа\") ||\n    CONTAINS(LCASE(?content), \"математика\") ||\n    CONTAINS(LCASE(?content), \"анализа\")\n  )\n  BIND(?content AS ?mathCourse)\n}\nGROUP BY ?program\nHAVING (COUNT(?mathCourse) < 4)\nORDER BY ASC(?mathCourseCount)\nLIMIT 10",
       "question": "Koji su smerovi koji nemaju puno matematike?",
-      "answer_value": "program"
-    },
-    {
-      "query": "PREFIX ns2: <http://example.org/program/>\n\nSELECT ?program ?duration\nWHERE {\n  ?program ns2:has_duration ?duration.\n  FILTER(xsd:integer(SUBSTR(?duration, 1, STRBEFORE(?duration, \"/\"))) > 3)\n}\nORDER BY ASC(?duration)",
-      "question": "Koji su smerovi koji traju duže od 3 godine?",
       "answer_value": "program"
     },
     {
