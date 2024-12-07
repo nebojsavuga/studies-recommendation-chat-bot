@@ -21,6 +21,9 @@ export class ChatComponent {
         for (const answer of res.results) {
           answerStr += answer + '\n';
         }
+        if (answerStr.endsWith('\n')) {
+          answerStr = answerStr.slice(0, -1);
+        }
         this.answers.push(answerStr);
       }
     );

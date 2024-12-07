@@ -1,7 +1,7 @@
 .chat-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 93vh;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -32,9 +32,10 @@
     background-color: rgba(209, 255, 214, 0.6);
     padding: 8px 15px;
     border-radius: 10px;
-    max-width: 60%;
     margin-right: auto;
     margin-top: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .chat-form {
