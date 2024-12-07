@@ -12,7 +12,7 @@
     },
     {
       "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?program \nWHERE { \n ?program ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"4\")) \n}",
-      "question": "Smerovi koji traju duŽe od 3 godine",
+      "question": "Smerovi koji traju duže od 3 godine",
       "answer_value": "program"
     },
     {
