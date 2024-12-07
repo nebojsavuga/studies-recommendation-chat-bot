@@ -1,0 +1,55 @@
+{
+    "queries": [
+      {
+        "query": "PREFIX ns2: <http://example.org/program/> \n\nSELECT ?smer \nWHERE { \n ?smer ns2:has_duration ?duration \nFILTER(CONTAINS((?duration), \"4\")) \n}",
+        "question": "Smerovi koji traju 4 godine",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"комплексно\") ||\n    CONTAINS(LCASE(?content), \"напредн\")\n  )}\nGROUP BY ?program\nORDER BY DESC(?courseCount)\nLimit 5",
+        "question": "Koji smerovi sadrže teže i napredne koncepte programiranja?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program(COUNT(?course ) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course .\n  ?course ns1:has_knowledge_area <http://example.org/ka/CE-CAE_Circuits_and_Electronics>\n}\nGROUP BY ?program \nORDER BY DESC(?courseCount)\nLimit 5",
+        "question": "Koji smerovi se bave elektrotehnikom?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns2: <http://example.org/program/>\n\nSELECT ?duration\nWHERE {\n  ?smer ns2:has_duration ?duration.\n  FILTER(CONTAINS(STR(?smer), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
+        "question": "Koliko godina traje smer SIIT?",
+        "answer_value": "duration"
+      },
+      {
+        "query": "PREFIX ns2: <http://example.org/program/>\n\nASK {\n  ?smer ?p ?o.\n  FILTER(CONTAINS(STR(?smer), \"Softversko_inženjerstvo_i_informacione_tehnologije\"))\n}",
+        "question": "Da li postoji smer _____?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"робот\") ||\n    CONTAINS(LCASE(?content), \"хардвер\")\n  )}\nGROUP BY ?program\nORDER BY DESC(?courseCount)\nLimit 5",
+        "question": "Na kojem smeru ću imati priliku da programiram robote i da se bolje upoznam sa hardverom?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"тимск\") ||\n    CONTAINS(LCASE(?content), \"у тиму\") ||\n    CONTAINS(LCASE(?content), \"груп\")\n  )}\nGROUP BY ?program\nORDER BY ASC(?courseCount)\nLimit 5",
+        "question": "Koji smer je dobar za samostalno istraživanje i učenje bez rada u timu?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\n\nSELECT ?program (COUNT(DISTINCT ?knowledge_area) AS ?knowledgeCount)\nWHERE {\n  ?program ns1:has_course ?course .\n  ?course ns1:has_knowledge_area ?knowledge_area .\n}\nGROUP BY ?program \nORDER BY DESC(?knowledgeCount)\nLIMIT 5",
+        "question": "Koji smer nudi širok spektar znanja a ne usku specijalizaciju?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"робот\") || \n    CONTAINS(LCASE(?content), \"актуатор\")\n  )}\nGROUP BY ?program\nORDER BY DESC(?courseCount)\nLimit 5",
+        "question": "Koji smerovi su vezani za ucenje robotike?",
+        "answer_value": "program"
+      },
+      {
+        "query": "PREFIX ns1: <http://example.org/course/>\nSELECT ?program (COUNT(?course) AS ?courseCount)\nWHERE {\n ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\nFILTER(\n    CONTAINS(LCASE(?content), \"plc\") || \n    CONTAINS(LCASE(?content), \"плц\")\n  )}\nGROUP BY ?program\nORDER BY DESC(?courseCount)\nLimit 5",
+        "question": "Na kojim smerovima se uči PLC programiranje?",
+        "answer_value": "program"
+      }
+    ]
+  }
+  
