@@ -3,3 +3,5 @@ faiss-cpu
 numpy
 rdflib
 sparqlwrapper
+Flask
+flask-cors
