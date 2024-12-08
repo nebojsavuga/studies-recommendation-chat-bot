@@ -47,14 +47,17 @@ def get_answer():
     sparql.setQuery(best_query)
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
+    human_response = "Izvinjavamo se. Nemamo odgovor na vaše pitanje."
 
+    if "results" not in results or not results["results"]["bindings"]:
+        return jsonify({"response": human_response})
+    
     response_data = [
         result[answer_value]["value"] for result in results["results"]["bindings"]
     ]
     if response_data:
         human_response = get_formatted_answer(user_input, response_data)
-    else:
-        human_response = "Izvinjavamo se. Nemamo odgovor na vaše pitanje."
+
     return jsonify({"response": human_response})
 
 
