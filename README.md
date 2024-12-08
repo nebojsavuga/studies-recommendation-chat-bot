@@ -124,7 +124,7 @@ This project uses a Flask web server to handle user questions and retrieve answe
 ## Frontend
 
 Angular was used to build the user interface that communicates with the backend server, sends user queries, and displays the results obtained from SPARQL queries in real time.
-
+!['chatbot application'](https://github.com/nebojsavuga/studies-recommendation-chat-bot/blob/develop/chatbot.png)
 ## Running the project
 
 The steps for running the project can be found in ``HowToRunIt.md``. This page contains detailed instructions for installing and running the project, including all necessary steps and configurations to ensure the system is properly set up and functioning.
