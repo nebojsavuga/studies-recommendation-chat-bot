@@ -74,7 +74,7 @@ To gather information on programming study programs at the [Faculty of Technical
 In addition, elective courses were added manually to the JSON file to ensure accuracy and completeness of the data.
 
 ## Populating the ACM Ontology with LLM
-For mapping academic study programs and their courses to the ACM curriculum, the following ontologies were used:
+For mapping academic study programs and their courses to the ACM curriculum, the following technologies were used:
 - OpenAI API: Used for generating textual embeddings for course descriptions and knowledge areas.
 - FAISS: Used for creating an index and quickly searching for similarities between course embeddings and knowledge area embeddings.
 - Python libraries: ``requests`` , ``faiss``, ``numpy``, and ``json`` for data processing and storage.
