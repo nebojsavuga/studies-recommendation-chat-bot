@@ -124,6 +124,246 @@
       "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\nPREFIX ns3: <http://example.org/learning_outcome/>\n\nSELECT ?program\nWHERE {\n  ?program ns1:has_course ?course.\n  ?course ns1:has_content ?content.\n  ?course ns1:has_learning_outcome ?learningOutcome.\n  FILTER(\n    (CONTAINS(LCASE(?content), \"hardver\") || CONTAINS(LCASE(?content), \"хардувер\") || CONTAINS(LCASE(?content), \"robotika\") || CONTAINS(LCASE(?content), \"роботика\") || CONTAINS(LCASE(?content), \"robot\") || CONTAINS(LCASE(?content), \"робот\")) &&\n    (CONTAINS(LCASE(?learningOutcome), \"hardver\") || CONTAINS(LCASE(?learningOutcome), \"хардувер\") || CONTAINS(LCASE(?learningOutcome), \"robotika\") || CONTAINS(LCASE(?learningOutcome), \"роботика\") || CONTAINS(LCASE(?learningOutcome), \"robot\") || CONTAINS(LCASE(?learningOutcome), \"робот\"))\n  )\n}\nGROUP BY ?program\nORDER BY ?program",
       "question": "Na kojem smeru ću imati priliku da programiram robote i da se bolje upoznam sa hardverom?",
       "answer_value": "program"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Biomedicinsko_inženjerstvo ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Biomedicinsko inženjerstvo?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Elektrotehnika ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Elektrotehnika?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Animacija_u_inženjerstvu ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Animacija u inženjerstvu?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Energetika,_elektronika_i_telekomunikacije ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Energetika, elektronika i telekomunikacije?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Grafičko_inženjerstvo_i_dizajn ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Grafičko inženjerstvo i dizajn?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Informacioni_inženjering ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Informacioni inženjering?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Inženjerstvo_informacionih_sistema ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Inženjerstvo informacionih sistema?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Mehatronika ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Mehatronika?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Primenjeno_softversko_inženjerstvo ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Primenjeno softversko inženjerstvo?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Računarstvo_i_automatika ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Računarstvo i automatika?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Softverske_i_informacione_tehnologije ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Softverske i informacione tehnologije?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?title\nWHERE {\n  ns2:Softversko_inženjerstvo_i_informacione_tehnologije ns2:has_title ?title.\n}",
+      "question": "Koje zvanje se stiče završetkom smera Softversko inženjerstvo i informacione tehnologije?",
+      "answer_value": "title"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Biomedicinsko_inženjerstvo ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Biomedicinsko inženjerstvo?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Elektrotehnika ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Elektrotehnika?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Animacija_u_inženjerstvu ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Animacija u inženjerstvu?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Energetika,_elektronika_i_telekomunikacije ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Energetika, elektronika i telekomunikacije?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Grafičko_inženjerstvo_i_dizajn ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Grafičko inženjerstvo i dizajn?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Informacioni_inženjering ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Informacioni inženjering?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Inženjerstvo_informacionih_sistema ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Inženjerstvo informacionih sistema?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Mehatronika ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Mehatronika?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Primenjeno_softversko_inženjerstvo ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Primenjeno softversko inženjerstvo?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Računarstvo_i_automatika ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Računarstvo i automatika?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Softverske_i_informacione_tehnologije ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Softverske i informacione tehnologije?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns2: <http://example.org/program/>\nSELECT ?typeOfStudies\nWHERE {\n  ns2:Softversko_inženjerstvo_i_informacione_tehnologije ns2:has_type_of_studies ?typeOfStudies.\n}",
+      "question": "Koji je tip studija na smeru Softversko inženjerstvo i informacione tehnologije?",
+      "answer_value": "typeOfStudies"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Biomedicinsko_inženjerstvo ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Biomedicinsko inženjerstvo?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Elektrotehnika ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Elektrotehnika?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Animacija_u_inženjerstvu ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Animacija u inženjerstvu?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Energetika,_elektronika_i_telekomunikacije ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Energetika, elektronika i telekomunikacije?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Grafičko_inženjerstvo_i_dizajn ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Grafičko inženjerstvo i dizajn?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Informacioni_inženjering ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Informacioni inženjering?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Inženjerstvo_informacionih_sistema ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Inženjerstvo informacionih sistema?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Mehatronika ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Mehatronika?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Primenjeno_softversko_inženjerstvo ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Primenjeno softversko inženjerstvo?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Računarstvo_i_automatika ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Računarstvo i automatika?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Softverske_i_informacione_tehnologije ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Softverske i informacione tehnologije?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT (COUNT(?course) AS ?numberOfCourses)\nWHERE {\n  ns2:Softversko_inženjerstvo_i_informacione_tehnologije ns1:has_course ?course.\n}",
+      "question": "Koliko predmeta ima smer Softversko inženjerstvo i informacione tehnologije?",
+      "answer_value": "numberOfCourses"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Biomedicinsko_inženjerstvo ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Biomedicinsko inženjerstvo?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Elektrotehnika ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Elektrotehnika?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Animacija_u_inženjerstvu ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Animacija u inženjerstvu?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Energetika,_elektronika_i_telekomunikacije ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Energetika, elektronika i telekomunikacije?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Grafičko_inženjerstvo_i_dizajn ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Grafičko inženjerstvo i dizajn?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Informacioni_inženjering ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Informacioni inženjering?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Inženjerstvo_informacionih_sistema ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Inženjerstvo informacionih sistema?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Mehatronika ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Mehatronika?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Primenjeno_softversko_inženjerstvo ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Primenjeno softversko inženjerstvo?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Računarstvo_i_automatika ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Računarstvo i automatika?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Softverske_i_informacione_tehnologije ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Softverske i informacione tehnologije?",
+      "answer_value": "course"
+    },
+    {
+      "query": "PREFIX ns1: <http://example.org/course/>\nPREFIX ns2: <http://example.org/program/>\n\nSELECT ?course\nWHERE {\n  ns2:Softversko_inženjerstvo_i_informacione_tehnologije ns1:has_course ?course.\n}",
+      "question": "Koji su predmeti na smeru Softversko inženjerstvo i informacione tehnologije?",
+      "answer_value": "course"
     }
   ]
 }
