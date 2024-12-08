@@ -101,6 +101,11 @@ This project involves creating an RDF ontology from JSON data that represents ac
 The output is an RDF Turtle file (program_data_v3.ttl) that can be used for semantic querying and data integration.
 We deployed this ontology to the  [OpenLink Virtuoso database](https://vos.openlinksw.com/owiki/wiki/VOS).
 
+!['Smer'](https://github.com/nebojsavuga/studies-recommendation-chat-bot/blob/develop/smer.png)
+!['COurse node'](https://github.com/nebojsavuga/studies-recommendation-chat-bot/blob/develop/course_node.png)
+!['Combined knowledge areas'](https://github.com/nebojsavuga/studies-recommendation-chat-bot/blob/develop/knowledge_belong_to_same_discipline.png)
+
+
 ## Querying the Ontology
 
 We created 95 questions that are stored in the ``sparql_queries.json`` file, along with corresponding SPARQL queries and the answer_value tag for identifying the type of answer.
