@@ -11,20 +11,19 @@ export class ChatComponent {
   questions: string[] = [];
   answers: string[] = [];
   userInput: string = '';
+  loading: boolean = false;
+
   constructor(private chatbot: ChatbotService) { }
 
   getAnswer(question: string) {
     this.questions.push(question);
+    this.loading = true;
+
     this.chatbot.getAnswer(question).subscribe(
       res => {
-        let answerStr = '';
-        for (const answer of res.results) {
-          answerStr += answer + '\n';
-        }
-        if (answerStr.endsWith('\n')) {
-          answerStr = answerStr.slice(0, -1);
-        }
+        let answerStr = res.response;
         this.answers.push(answerStr);
+        this.loading = false;
       }
     );
   }

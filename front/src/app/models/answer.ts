@@ -1,3 +1,3 @@
 export interface Answer {
-    results: string[];
+    response: string;
 }

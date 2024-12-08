@@ -5,3 +5,4 @@ rdflib
 sparqlwrapper
 Flask
 flask-cors
+openai

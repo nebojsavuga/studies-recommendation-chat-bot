@@ -8,7 +8,13 @@
                 {{ question }}
             </div>
             <div class="answer">
-                {{ answers[i] }}
+                <!-- Show answer or loading animation -->
+                <ng-container *ngIf="!loading || i < answers.length; else loadingTemplate">
+                    {{ answers[i] }}
+                </ng-container>
+                <ng-template #loadingTemplate>
+                    <span class="loading-dots">Odgovaram<span>.</span><span>.</span><span>.</span></span>
+                </ng-template>
             </div>
         </div>
     </div>
