@@ -22,7 +22,7 @@ def get_formatted_answer(question, results):
     prompt = (
         f"User asked: '{question}'. Based on the following data:\n"
         f"{', '.join(results)}\n"
-        "Write a friendly and human-readable answer in Serbian language:"
+        "Write a friendly and human-readable answer in Serbian language without excluding any of the data and without markup:"
     )
     try:
         response = client.chat.completions.create(
@@ -51,7 +51,6 @@ def get_answer():
     response_data = [
         result[answer_value]["value"] for result in results["results"]["bindings"]
     ]
-
     if response_data:
         human_response = get_formatted_answer(user_input, response_data)
     else:
