@@ -1,0 +1,26 @@
+<div class="chat-container">
+    <h2>Četujte sa botom</h2>
+
+    <div class="chat-history">
+        <div *ngFor="let question of questions; let i = index" class="chat-message">
+
+            <div class="question">
+                {{ question }}
+            </div>
+            <div class="answer">
+                <!-- Show answer or loading animation -->
+                <ng-container *ngIf="!loading || i < answers.length; else loadingTemplate">
+                    {{ answers[i] }}
+                </ng-container>
+                <ng-template #loadingTemplate>
+                    <span class="loading-dots">Odgovaram<span>.</span><span>.</span><span>.</span></span>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+
+    <form (ngSubmit)="onSubmit()" class="chat-form">
+        <input type="text" [(ngModel)]="userInput" name="question" placeholder="Postavite pitanje" required />
+        <button type="submit" class="default-button mx-2">Pitaj</button>
+    </form>
+</div>

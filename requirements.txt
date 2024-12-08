@@ -2,3 +2,7 @@ openai
 faiss-cpu
 numpy
 rdflib
+sparqlwrapper
+Flask
+flask-cors
+openai

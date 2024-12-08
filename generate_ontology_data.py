@@ -130,7 +130,7 @@ print("Mapping courses to knowledge areas...")
 program_courses = {}
 for i, course in enumerate(courses):
     query_embedding = np.array(course_embeddings[i], dtype=np.float32).reshape(1, -1)
-    distances, indices = faiss_index.search(query_embedding, k=3)  # Top 3 KA
+    distances, indices = faiss_index.search(query_embedding, k=5)  # Top 3 KA
     top_matches = [
         {"name": ka_metadata[idx]["name"], "discipline": ka_metadata[idx]["discipline"]}
         for _, idx in enumerate(indices[0])
